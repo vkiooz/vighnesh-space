@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - vighnesh.space</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'montserrat': ['Montserrat', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-montserrat bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex justify-between items-center h-12 sm:h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <div class="w-12 h-8 bg-black rounded-xl flex items-center justify-center font-mono text-white text-md">v/s</div>
+                    <a href="../index.html" class="ml-2 text-xl sm:text-2xl text-gray-900" style="font-family: 'Noticia Text', serif;">
+                        vighnesh / space
+                    </a>
+                </div>
+                
+                <!-- Navigation Links -->
+                <div class="hidden md:flex space-x-2">
+                    <a href="../index.html" class="nav-link text-gray-700 hover:text-gray-900">Home</a>
+                    <a href="about.html" class="nav-link text-gray-700 hover:text-gray-900">About</a>
+                    <a href="gallery.html" class="nav-link text-gray-700 hover:text-gray-900">Gallery</a>
+                    <a href="contact.html" class="nav-link text-gray-700 hover:text-gray-900">Contact</a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-toggle" class="text-gray-700 hover:text-gray-900 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="md:hidden hidden mt-4 pb-4">
+                <div class="flex flex-col space-y-2">
+                    <a href="../index.html" class="nav-link text-gray-700 hover:text-gray-900">Home</a>
+                    <a href="about.html" class="nav-link text-gray-700 hover:text-gray-900">About</a>
+                    <a href="gallery.html" class="nav-link text-gray-700 hover:text-gray-900">Gallery</a>
+                    <a href="contact.html" class="nav-link text-gray-700 hover:text-gray-900">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6" style="font-family: 'Noticia Text', serif;">
+                    About Me
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
+                    Software engineer, photographer, and curious mind exploring the intersection of technology and creativity.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Story Section -->
+        <section class="py-16">
+            <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl mx-auto">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <h2 class="text-3xl font-bold text-gray-900 mb-6" style="font-family: 'Noticia Text', serif;">
+                                My Story
+                            </h2>
+                            <div class="space-y-4 text-gray-600 leading-relaxed">
+                                <p>
+                                    I'm a passionate software engineer with a deep love for creating digital experiences that matter. 
+                                    My journey in technology began with curiosity about how things work, which evolved into building 
+                                    solutions that impact people's lives.
+                                </p>
+                                <p>
+                                    When I'm not coding, you'll find me behind a camera lens, capturing moments that tell stories. 
+                                    Photography has taught me patience, composition, and the art of seeing beauty in everyday moments.
+                                </p>
+                                <p>
+                                    I believe in the philosophy of "Happiness over Hustle" - finding joy and meaning in the work 
+                                    we do while maintaining a healthy balance with life's other beautiful aspects.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-gray-100 rounded-2xl p-8 text-center">
+                            <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 bg-cover bg-center" 
+                                 style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face&auto=format&fm=jpg&q=80');">
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Vighnesh</h3>
+                            <p class="text-gray-600">Software Engineer & Photographer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-6xl mx-auto">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl font-bold text-gray-900 mb-4" style="font-family: 'Noticia Text', serif;">
+                            Skills & Expertise
+                        </h2>
+                        <p class="text-lg text-gray-600">
+                            Technologies and tools I work with to bring ideas to life
+                        </p>
+                    </div>
+                    
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- Frontend Development -->
+                        <div class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Frontend Development</h3>
+                            <p class="text-gray-600 mb-4">Creating responsive and interactive user interfaces</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">React</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">TypeScript</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Tailwind CSS</span>
+                            </div>
+                        </div>
+
+                        <!-- Backend Development -->
+                        <div class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                            <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Backend Development</h3>
+                            <p class="text-gray-600 mb-4">Building scalable server-side applications and APIs</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Node.js</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Python</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">PostgreSQL</span>
+                            </div>
+                        </div>
+
+                        <!-- Cloud & DevOps -->
+                        <div class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                            <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Cloud & DevOps</h3>
+                            <p class="text-gray-600 mb-4">Deploying and managing applications in the cloud</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">AWS</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Docker</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">GitHub Actions</span>
+                            </div>
+                        </div>
+
+                        <!-- Photography -->
+                        <div class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                            <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Photography</h3>
+                            <p class="text-gray-600 mb-4">Capturing moments and telling stories through images</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Street Photography</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Portraits</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Architecture</span>
+                            </div>
+                        </div>
+
+                        <!-- Design -->
+                        <div class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                            <div class="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">UI/UX Design</h3>
+                            <p class="text-gray-600 mb-4">Designing intuitive and beautiful user experiences</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Figma</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Adobe Creative Suite</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Prototyping</span>
+                            </div>
+                        </div>
+
+                        <!-- Problem Solving -->
+                        <div class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                            <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Problem Solving</h3>
+                            <p class="text-gray-600 mb-4">Analytical thinking and creative solution development</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">System Design</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Algorithms</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Debugging</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy Section -->
+        <section class="py-16">
+            <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-8" style="font-family: 'Noticia Text', serif;">
+                        My Philosophy
+                    </h2>
+                    <div class="bg-gray-50 rounded-2xl p-8 lg:p-12">
+                        <blockquote class="text-xl lg:text-2xl text-gray-700 leading-relaxed mb-6" style="font-family: 'Noticia Text', serif;">
+                            "Technology should serve humanity, not the other way around. Every line of code, every pixel, 
+                            every photograph should contribute to making the world a little more beautiful and connected."
+                        </blockquote>
+                        <div class="border-t border-gray-200 pt-6">
+                            <p class="text-gray-600 leading-relaxed">
+                                I believe in building with intention, learning continuously, and maintaining empathy in everything I create. 
+                                Whether I'm developing software or capturing moments through photography, the goal remains the same: 
+                                to create something meaningful that resonates with people.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-black text-white">
+            <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-3xl font-bold mb-6" style="font-family: 'Noticia Text', serif;">
+                        Let's Create Something Together
+                    </h2>
+                    <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                        Whether you have a project in mind, want to collaborate, or just want to chat about technology and photography, 
+                        I'd love to hear from you.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="contact.html" class="inline-flex items-center px-8 py-3 bg-white text-black rounded-lg hover:bg-gray-100 transition-colors font-medium">
+                            Get in Touch
+                        </a>
+                        <a href="gallery.html" class="inline-flex items-center px-8 py-3 border border-white text-white rounded-lg hover:bg-white hover:text-black transition-colors font-medium">
+                            View My Work
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-white border-t">
+        <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8 py-6">
+            <div class="text-center">
+                <p class="text-sm text-gray-500">© 2025 by vighnesh</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html> 

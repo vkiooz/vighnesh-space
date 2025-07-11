@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - vighnesh.space</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'montserrat': ['Montserrat', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-montserrat bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex justify-between items-center h-12 sm:h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <div class="w-12 h-8 bg-black rounded-xl flex items-center justify-center font-mono text-white text-md">v/s</div>
+                    <a href="../index.html" class="ml-2 text-xl sm:text-2xl text-gray-900" style="font-family: 'Noticia Text', serif;">
+                        vighnesh / space
+                    </a>
+                </div>
+                
+                <!-- Navigation Links -->
+                <div class="hidden md:flex space-x-2">
+                    <a href="../index.html" class="nav-link text-gray-700 hover:text-gray-900">Home</a>
+                    <a href="about.html" class="nav-link text-gray-700 hover:text-gray-900">About</a>
+                    <a href="gallery.html" class="nav-link text-gray-700 hover:text-gray-900">Gallery</a>
+                    <a href="contact.html" class="nav-link text-gray-700 hover:text-gray-900">Contact</a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-toggle" class="text-gray-700 hover:text-gray-900 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="md:hidden hidden mt-4 pb-4">
+                <div class="flex flex-col space-y-2">
+                    <a href="../index.html" class="nav-link text-gray-700 hover:text-gray-900">Home</a>
+                    <a href="about.html" class="nav-link text-gray-700 hover:text-gray-900">About</a>
+                    <a href="gallery.html" class="nav-link text-gray-700 hover:text-gray-900">Gallery</a>
+                    <a href="contact.html" class="nav-link text-gray-700 hover:text-gray-900">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="bg-white py-16">
+        <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6" style="font-family: 'Noticia Text', serif;">
+                    Gallery
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-600 leading-relaxed">
+                    A collection of moments captured through my lens - exploring the world one frame at a time.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Categories -->
+    <section class="py-8 bg-white border-b">
+        <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-center">
+                <div class="flex flex-wrap gap-4 justify-center">
+                    <button class="gallery-filter active bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-colors" data-filter="all">
+                        All
+                    </button>
+                    <button class="gallery-filter bg-gray-200 text-gray-700 px-6 py-2 rounded-full text-sm hover:bg-gray-300 transition-colors" data-filter="street">
+                        Street
+                    </button>
+                    <button class="gallery-filter bg-gray-200 text-gray-700 px-6 py-2 rounded-full text-sm hover:bg-gray-300 transition-colors" data-filter="architecture">
+                        Architecture
+                    </button>
+                    <button class="gallery-filter bg-gray-200 text-gray-700 px-6 py-2 rounded-full text-sm hover:bg-gray-300 transition-colors" data-filter="people">
+                        People
+                    </button>
+                    <button class="gallery-filter bg-gray-200 text-gray-700 px-6 py-2 rounded-full text-sm hover:bg-gray-300 transition-colors" data-filter="nature">
+                        Nature
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Gallery -->
+    <main class="py-16 bg-gray-50">
+        <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8">
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item" data-category="street">
+                    <img src="../images/gallery/DSCF0923.JPG" 
+                         alt="Street Photography 1" 
+                         data-full="../images/gallery/DSCF0923.JPG">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3 class="overlay-title">Urban Moments</h3>
+                            <p class="overlay-description">Capturing life in the city</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item" data-category="architecture">
+                    <img src="../images/gallery/DSCF0924 (1).JPG" 
+                         alt="Architecture 1" 
+                         data-full="../images/gallery/DSCF0924 (1).JPG">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3 class="overlay-title">Architectural Details</h3>
+                            <p class="overlay-description">Form and structure in focus</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item" data-category="people">
+                    <img src="../images/gallery/DSCF0928.JPG" 
+                         alt="Portrait 1" 
+                         data-full="../images/gallery/DSCF0928.JPG">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3 class="overlay-title">Human Stories</h3>
+                            <p class="overlay-description">Authentic moments captured</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item" data-category="nature">
+                    <img src="../images/gallery/DSCF1605 (1).JPG" 
+                         alt="Nature 1" 
+                         data-full="../images/gallery/DSCF1605 (1).JPG">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3 class="overlay-title">Natural Beauty</h3>
+                            <p class="overlay-description">The world through my lens</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item" data-category="street">
+                    <img src="../images/gallery/DSCF1347.JPG" 
+                         alt="Street Photography 2" 
+                         data-full="../images/gallery/DSCF1347.JPG">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3 class="overlay-title">City Life</h3>
+                            <p class="overlay-description">Street photography at its finest</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item" data-category="architecture">
+                    <img src="../images/gallery/DSCF1534.JPG" 
+                         alt="Architecture 2" 
+                         data-full="../images/gallery/DSCF1534.JPG">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3 class="overlay-title">Geometric Patterns</h3>
+                            <p class="overlay-description">Lines and angles in harmony</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 7 -->
+                <div class="gallery-item" data-category="people">
+                    <img src="../images/gallery/Image (14).png" 
+                         alt="Portrait 2" 
+                         data-full="../images/gallery/Image (14).png">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3 class="overlay-title">Creative Expression</h3>
+                            <p class="overlay-description">Art and emotion combined</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional images can be added here as needed -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Gallery Image">
+            <button id="lightbox-close" class="lightbox-close">×</button>
+        </div>
+    </div>
+    
+    <footer class="bg-white mt-16">
+        <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8 py-6">
+            <div class="text-center">
+                <p class="text-sm text-gray-500">© 2025 by vighnesh</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script>
+        // Gallery filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.gallery-filter');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Update active filter button
+                    filterButtons.forEach(btn => {
+                        btn.classList.remove('active', 'bg-black', 'text-white');
+                        btn.classList.add('bg-gray-200', 'text-gray-700');
+                    });
+                    this.classList.add('active', 'bg-black', 'text-white');
+                    this.classList.remove('bg-gray-200', 'text-gray-700');
+                    
+                    // Filter gallery items
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                            item.style.animation = 'fadeIn 0.5s ease-in';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
