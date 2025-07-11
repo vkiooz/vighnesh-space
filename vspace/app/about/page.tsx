@@ -39,7 +39,7 @@ export default function AboutPage() {
           </Button>
         </div> */}
         
-        <section className="py-24 bg-gray-50 min-h-screen">
+        <section className="py-12 lg:py-24 bg-gray-50 min-h-screen">
           <div className="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
               <div className="relative">
@@ -47,7 +47,7 @@ export default function AboutPage() {
                 <div className="absolute left-4 sm:left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-gray-300 via-gray-400 to-gray-300"></div>
                 
                 {/* Timeline Items */}
-                <div className="space-y-12">
+                <div className="space-y-8 lg:space-y-12">
                   {/* Hevo Data - Current */}
                   <div className="relative flex items-start">
                     <div className="absolute left-[-88px] flex items-center gap-3">
@@ -70,17 +70,17 @@ export default function AboutPage() {
                     </div>
                     <div className="ml-16 sm:ml-20">
                       <div>
-                        <div className="p-6">
-                          <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+                        <div className="p-4 lg:p-6">
+                          <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-3 flex flex-col sm:flex-row sm:items-center gap-2">
                             DevOps Engineer
-                            <a href="https://hevodata.com" target="_blank" className="text-gray-500 hover:text-purple-700 flex items-center gap-1 text-sm pt-2 border-b-2 border-gray-500 ml-1">
+                            <a href="https://hevodata.com" target="_blank" className="text-gray-500 hover:text-purple-700 text-sm border-b-2 border-gray-500">
                               Hevo Data
                             </a>
                           </h3>
-                          <p className="text-gray-600 text-[14px] leading-relaxed mb-3">
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed mb-3">
                             2 yrs 6 mos · Greater Bangalore Area · On-site
                           </p>
-                          <p className="text-gray-600 text-[14px] leading-relaxed">
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed">
                             Building and maintaining scalable data pipeline infrastructure. Working with modern DevOps practices, 
                             containerization, and cloud technologies to ensure reliable data processing at scale.
                           </p>
@@ -114,12 +114,17 @@ export default function AboutPage() {
                     </div>
                     <div className="ml-16 sm:ml-20">
                       <div>
-                        <div className="p-6">
-                          <h3 className="text-xl font-bold text-gray-900 mb-3">DevOps Engineer 2 <a href="https://hevodata.com" target="_blank" className="text-gray-500 hover:text-purple-700 text-sm pt-2 border-b-2 border-gray-500 ml-1"> Hevo Data</a></h3>
-                          <p className="text-gray-600 text-[14px] leading-relaxed mb-3">
+                        <div className="p-4 lg:p-6">
+                          <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-3 flex flex-col sm:flex-row sm:items-center gap-2">
+                            DevOps Engineer 2
+                            <a href="https://hevodata.com" target="_blank" className="text-gray-500 hover:text-purple-700 text-sm border-b-2 border-gray-500">
+                              Hevo Data
+                            </a>
+                          </h3>
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed mb-3">
                             Full-time · Jul 2024 - Present · 1 yr 1 mo
                           </p>
-                          <p className="text-gray-600 text-[14px] leading-relaxed mb-4">
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed mb-4">
                             Advanced DevOps practices with focus on automation, monitoring, and infrastructure optimization. 
                             Leading initiatives in containerization and CI/CD pipeline improvements.
                           </p>
@@ -158,12 +163,17 @@ export default function AboutPage() {
                     </div>
                     <div className="ml-16 sm:ml-20">
                       <div>
-                        <div className="p-6">
-                          <h3 className="text-xl font-bold text-gray-900 mb-3">DevOps Engineer 1 <a href="https://hevodata.com" target="_blank" className="text-gray-500 hover:text-purple-700 text-sm pt-2 border-b-2 border-gray-500 ml-1"> Hevo Data</a></h3>
-                          <p className="text-gray-600 text-[14px] leading-relaxed mb-3">
+                        <div className="p-4 lg:p-6">
+                          <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-3 flex flex-col sm:flex-row sm:items-center gap-2">
+                            DevOps Engineer 1
+                            <a href="https://hevodata.com" target="_blank" className="text-gray-500 hover:text-purple-700 text-sm border-b-2 border-gray-500">
+                              Hevo Data
+                            </a>
+                          </h3>
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed mb-3">
                             Full-time · Jul 2023 - Jul 2024 · 1 yr 1 mo
                           </p>
-                          <p className="text-gray-600 text-[14px] leading-relaxed mb-4">
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed mb-4">
                             Foundation building in DevOps methodologies, working with cloud infrastructure, 
                             automation tools, and establishing reliable deployment pipelines.
                           </p>
@@ -202,12 +212,17 @@ export default function AboutPage() {
                     </div>
                     <div className="ml-16 sm:ml-20">
                       <div>
-                        <div className="p-6">
-                          <h3 className="text-xl font-bold text-gray-900 mb-3">Software Development Engineer Intern <a href="https://hevodata.com" target="_blank" className="text-gray-500 border-b-2 border-gray-500 hover:text-purple-700 text-sm pt-2 ml-1"> Hevo Data</a></h3>
-                          <p className="text-gray-600 text-[14px] leading-relaxed mb-3">
+                        <div className="p-4 lg:p-6">
+                          <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-3 flex flex-col sm:flex-row sm:items-center gap-2">
+                            Software Development Engineer Intern
+                            <a href="https://hevodata.com" target="_blank" className="text-gray-500 border-b-2 border-gray-500 hover:text-purple-700 text-sm">
+                              Hevo Data
+                            </a>
+                          </h3>
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed mb-3">
                             Internship · Jan 2023 - Jul 2023 · 6 mos
                           </p>
-                          <p className="text-gray-600 text-[14px] leading-relaxed mb-4">
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed mb-4">
                             Started my professional journey as an intern, learning software development practices, 
                             contributing to real projects, and building foundational technical skills.
                           </p>
@@ -244,13 +259,18 @@ export default function AboutPage() {
                     </div>
                     <div className="ml-16 sm:ml-20">
                       <div>
-                        <div className="p-6">
-                          <h3 className="text-xl font-bold text-gray-900 mb-3">Design Team Lead <a href="https://reva-hack-1.devfolio.co/" target="_blank" className="text-gray-500 hover:text-purple-700 text-sm pt-2 border-b-2 border-gray-500 ml-1"> Reva Hack</a></h3>
-                          <p className="text-gray-600 text-[14px] leading-relaxed mb-3">
+                        <div className="p-4 lg:p-6">
+                          <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-3 flex flex-col sm:flex-row sm:items-center gap-2">
+                            Design Team Lead
+                            <a href="https://reva-hack-1.devfolio.co/" target="_blank" className="text-gray-500 hover:text-purple-700 text-sm border-b-2 border-gray-500">
+                              Reva Hack
+                            </a>
+                          </h3>
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed mb-3">
                             Self-employed · Part-time · Jul 2019 - Dec 2022 · 8 mos<br/>
                             Bangalore, Karnataka, India
                           </p>
-                          <p className="text-gray-600 text-[14px] leading-relaxed mb-4">
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed mb-4">
                             Led creative design projects, managing team workflows and client relationships. 
                             Developed strong leadership and project management skills in a creative environment.
                           </p>
@@ -289,13 +309,18 @@ export default function AboutPage() {
                     </div>
                     <div className="ml-16 sm:ml-20">
                       <div>
-                        <div className="p-6">
-                          <h3 className="text-xl font-bold text-gray-900 mb-3">Software Engineer <a href="https://www.betsol.com" target="_blank" className="text-gray-500 hover:text-purple-700 text-sm pt-2 border-b-2 border-gray-500 ml-1"> BETSOL</a></h3>
-                          <p className="text-gray-600 text-[14px] leading-relaxed mb-3">
+                        <div className="p-4 lg:p-6">
+                          <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-3 flex flex-col sm:flex-row sm:items-center gap-2">
+                            Software Engineer
+                            <a href="https://www.betsol.com" target="_blank" className="text-gray-500 hover:text-purple-700 text-sm border-b-2 border-gray-500">
+                              BETSOL
+                            </a>
+                          </h3>
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed mb-3">
                             Internship · Dec 2021 - Jun 2022 · 2 mos<br/>
                             Bangalore, Karnataka, India
                           </p>
-                          <p className="text-gray-600 text-[14px] leading-relaxed mb-4">
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed mb-4">
                             Early exposure to enterprise software development, working with established development 
                             practices and contributing to business applications.
                           </p>
@@ -334,13 +359,18 @@ export default function AboutPage() {
                     </div>
                     <div className="ml-16 sm:ml-20">
                       <div>
-                        <div className="p-6">
-                          <h3 className="text-xl font-bold text-gray-900 mb-3">B.Tech in Computer Science and Engineering <a href="https://www.reva.edu.in" target="_blank" className="text-gray-500 hover:text-purple-700 text-sm pt-2 border-b-2 border-gray-500 ml-1"> REVA University</a></h3>
-                          <p className="text-gray-600 text-[14px] leading-relaxed mb-3">
+                        <div className="p-4 lg:p-6">
+                          <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-3 flex flex-col sm:flex-row sm:items-center gap-2">
+                            B.Tech in Computer Science and Engineering
+                            <a href="https://www.reva.edu.in" target="_blank" className="text-gray-500 hover:text-purple-700 text-sm border-b-2 border-gray-500">
+                              REVA University
+                            </a>
+                          </h3>
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed mb-3">
                             Bachelor of Technology - BTech, Computer Science<br/>
                             2018 - 2022 · Grade: 9.62
                           </p>
-                          <p className="text-gray-600 text-[14px] leading-relaxed">
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed">
                             Completed comprehensive computer science education with excellence, building strong foundations 
                             in programming, algorithms, and software engineering principles.
                           </p>
@@ -365,9 +395,9 @@ export default function AboutPage() {
                     
                     <div className="ml-16 sm:ml-20">
                       <div>
-                        <div className="p-6">
-                          <h3 className="text-xl font-bold text-gray-900 mb-2">Photography Passion</h3>
-                          <p className="text-gray-600 text-[14px] leading-relaxed">
+                        <div className="p-4 lg:p-6">
+                          <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-2">Photography Passion</h3>
+                          <p className="text-gray-600 text-sm lg:text-[14px] leading-relaxed">
                             Discovered the art of capturing moments and telling stories through lens. From street photography 
                             to architectural compositions, each frame is a new perspective on the world around us.
                           </p>
@@ -391,8 +421,8 @@ export default function AboutPage() {
                     </div>
                     <div className="ml-16 sm:ml-20">
                       <div>
-                        <div className="p-6">
-                          <h3 className="text-xl font-bold text-gray-900 mb-2">
+                        <div className="p-4 lg:p-6">
+                          <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-2">
                             <Link className="flex items-center gap-2 hover:text-purple-600 transition-colors" href="/contact">
                               Get in touch to know more <ArrowRight className="w-4 h-4" />
                             </Link>
@@ -409,8 +439,6 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
-
-
 
       {/* CTA Section */}
       {/* <section className="py-16 bg-black text-white">

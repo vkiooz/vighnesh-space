@@ -108,11 +108,11 @@ export default function GalleryPage() {
   return (
     <main>
       {/* Header Section */}
-      <section className="py-12 bg-white border-b">
-        <div className="mx-64">
-          <div className="flex flex-row space-x-12">
+      <section className="py-8 lg:py-12 bg-white border-b">
+        <div className="mx-4 sm:mx-8 lg:mx-64 px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col lg:flex-row lg:space-x-12 space-y-6 lg:space-y-0">
             {/* Profile Picture */}
-            <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-gray-200 shadow-lg">
+            <div className="w-24 h-24 lg:w-32 lg:h-32 rounded-full overflow-hidden border-2 border-gray-200 shadow-lg mx-auto lg:mx-0 flex-shrink-0">
               <Image
                 src="/me.png"
                 alt="Vighnesh Profile"
@@ -122,46 +122,72 @@ export default function GalleryPage() {
               />
             </div>
             
-            <div className="flex flex-col space-y-4">
-            {/* Name and Handle */}
-            <div className="space-y-1">
-              <h1 className="text-2xl font-bold font-noticia">Vighnesh</h1>
-            </div>
-            
-            {/* Bio */}
-            <div className="space-y-2">
-              <p className="text-sm text-gray-700 leading-relaxed">
-                Capturing life's melodies in motion<br/>
-                Bangalore, India
-              </p>
-              <div className="pt-4">
-                <div className="flex justify-center">
-                  <div className="flex flex-wrap gap-2 justify-center">
-                    {categories.map((category) => (
-                      <span
-                        key={category.id}
-                        onClick={() => setActiveFilter(category.id)}
-                        className={`rounded-xl text-sm cursor-pointer px-3 py-1 hover:bg-gray-100 ${activeFilter === category.id ? "bg-gray-100" : "bg-white"}`}
-                      >
-                        {category.label}
-                      </span>
-                    ))}
+            <div className="flex flex-col space-y-4 text-center lg:text-left">
+              {/* Name and Handle */}
+              <div className="space-y-1">
+                <h1 className="text-xl lg:text-2xl font-bold font-noticia">Vighnesh</h1>
+              </div>
+              
+              {/* Bio */}
+              <div className="space-y-2">
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  Capturing life's melodies in motion<br/>
+                  Bangalore, India
+                </p>
+                <div className="pt-2 lg:pt-4">
+                  <div className="flex justify-center lg:justify-start">
+                    <div className="flex flex-wrap gap-2 justify-center lg:justify-start">
+                      {categories.map((category) => (
+                        <span
+                          key={category.id}
+                          onClick={() => setActiveFilter(category.id)}
+                          className={`rounded-xl text-sm cursor-pointer px-3 py-1 hover:bg-gray-100 transition-colors ${
+                            activeFilter === category.id ? "bg-gray-100" : "bg-white"
+                          }`}
+                        >
+                          {category.label}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Gallery Categories */}
-     
-
       {/* Main Gallery */}
       <section className="py-2 bg-gray-50">
         <div className="mx-2">
-          <div className="grid grid-cols-3 gap-2">
+          {/* Mobile Grid (1 column) */}
+          <div className="grid grid-cols-1 gap-2 lg:hidden">
+            {filteredItems.map((item) => (
+              <Card
+                key={item.id}
+                className="cursor-pointer group overflow-hidden hover:shadow-lg transition-all duration-300 rounded-lg"
+                onClick={() => openLightbox(item)}
+              >
+                <div className="relative aspect-square">
+                  <Image
+                    src={item.src || "/placeholder.svg"}
+                    alt={item.alt}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 opacity-0 group-hover:opacity-100 transition-all duration-500">
+                    <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
+                      <h3 className="text-base font-bold mb-1 font-noticia">{item.title}</h3>
+                      <p className="text-sm text-gray-200 leading-relaxed opacity-90">{item.description}</p>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            ))}
+          </div>
+
+          {/* Desktop Grid (3 columns with masonry-like layout) */}
+          <div className="hidden lg:grid grid-cols-3 gap-2">
             {filteredItems.map((item, index) => {
               const rowIndex = Math.floor(index / 2);
               const colIndex = index % 2;
@@ -199,34 +225,43 @@ export default function GalleryPage() {
           </div>
         </div>
       </section>
+
+      {/* Lightbox Modal */}
       {lightboxImage && (
         <div
           className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4"
           onClick={closeLightbox}
         >
-          <div className="relative max-w-7xl w-full max-h-full bg-white rounded-lg overflow-hidden flex" onClick={(e) => e.stopPropagation()}>
-            {/* Image Section - Left Side */}
-            <div className="flex-1 relative min-h-[80vh] bg-gray-100">
+          <div className="relative max-w-7xl w-full max-h-full bg-white rounded-lg overflow-hidden flex flex-col lg:flex-row" onClick={(e) => e.stopPropagation()}>
+            {/* Close Button */}
+            <button
+              onClick={closeLightbox}
+              className="absolute top-4 right-4 z-10 w-8 h-8 bg-black bg-opacity-50 rounded-full flex items-center justify-center text-white hover:bg-opacity-70 transition-colors"
+            >
+              <X className="w-4 h-4" />
+            </button>
+
+            {/* Image Section */}
+            <div className="flex-1 relative min-h-[50vh] lg:min-h-[80vh] bg-gray-100">
               <Image
                 src={lightboxImage.highResSrc || "/placeholder.svg"}
                 alt={lightboxImage.alt}
-                width={800}
-                height={600}
-                className="w-full h-full object-cover"
+                fill
+                className="object-cover"
               />
             </div>
             
-            {/* Story/Blog Section - Right Side */}
-            <div className="w-96 bg-white p-8 overflow-y-auto">
-              <div className="space-y-6">
+            {/* Story/Blog Section */}
+            <div className="w-full lg:w-96 bg-white p-6 lg:p-8 overflow-y-auto max-h-[50vh] lg:max-h-none">
+              <div className="space-y-4 lg:space-y-6">
                 <div className="flex items-start justify-between">
-                  <h2 className="text-2xl font-bold text-gray-900 font-noticia leading-tight">
+                  <h2 className="text-xl lg:text-2xl font-bold text-gray-900 font-noticia leading-tight">
                     {lightboxImage.title}
                   </h2>
                 </div>
                 
                 <div className="prose prose-sm max-w-none">
-                  <p className="text-gray-700 leading-relaxed text-base">
+                  <p className="text-gray-700 leading-relaxed text-sm lg:text-base">
                     {lightboxImage.description}
                   </p>
                 </div>
@@ -244,11 +279,17 @@ export default function GalleryPage() {
                     </div>
                   </div>
                   
-                  <div className="pt-12">
+                  <div className="pt-6 lg:pt-12">
                     <h3 className="font-semibold text-gray-900 mb-3">récit | story</h3>
                     <p className="text-gray-600 text-sm leading-relaxed">
                       This piece represents a moment captured in time, where light, composition, and emotion converge to tell a story that goes beyond the visible frame. Each element has been carefully considered to create a visual narrative that speaks to the viewer's imagination.
                     </p>
+                    
+                    <div className="mt-4 lg:mt-6">
+                      <p className="text-gray-600 text-sm leading-relaxed">
+                        Photography, for me, is about finding the extraordinary in the ordinary. It's about pausing in our fast-paced world to notice the subtle interplay of shadows, the geometry of urban landscapes, or the raw emotion in a fleeting moment.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

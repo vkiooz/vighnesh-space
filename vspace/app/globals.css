@@ -92,3 +92,90 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Mobile-specific optimizations */
+@layer components {
+  /* Touch-friendly button sizes */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Improved text readability on mobile */
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px; /* Prevents zoom on iOS */
+      line-height: 1.5;
+    }
+    
+    /* Ensure proper spacing for mobile */
+    .mobile-spacing {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    
+    /* Mobile-friendly form inputs */
+    input, textarea, select {
+      font-size: 16px; /* Prevents zoom on iOS */
+    }
+    
+    /* Smooth scrolling for mobile */
+    html {
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  
+  /* Improved focus states for accessibility */
+  .focus-visible:focus-visible {
+    outline: 2px solid theme('colors.blue.500');
+    outline-offset: 2px;
+  }
+  
+  /* Loading states for better UX */
+  .loading {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  
+  /* Optimized images for mobile */
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+/* Performance optimizations */
+@layer utilities {
+  /* GPU acceleration for animations */
+  .gpu-accelerated {
+    transform: translateZ(0);
+    will-change: transform;
+  }
+  
+  /* Reduce motion for accessibility */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* Mobile navigation improvements */
+@media (max-width: 1024px) {
+  /* Ensure mobile menu doesn't interfere with content */
+  .mobile-menu-open {
+    overflow: hidden;
+  }
+  
+  /* Better mobile typography */
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.5rem; }
+  h4 { font-size: 1.25rem; }
+  h5 { font-size: 1.125rem; }
+  h6 { font-size: 1rem; }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vighnesh.space</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'montserrat': ['Montserrat', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="font-montserrat">
+    <!-- Navigation -->
+    <nav class="bg-white">
+        <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex justify-between items-center h-12 sm:h-16">
+                <!-- Logo -->
+		<div class="flex-shrink-0 flex items-center gap-2">
+                    <div class="w-12 h-8 bg-black rounded-xl flex items-center justify-center font-mono text-white text-md">v/s</div>
+			<a href="/" class="ml-2 text-xl sm:text-2xl text-gray-900" style="font-family: 'Noticia Text', serif;">
+                        <!-- vighnesh<span class="text-4xl sm:text-6xl lg:text-[4rem]">.</span>space -->
+                        vighnesh / space
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="flex flex-col lg:flex-row gap-6 lg:gap-10 justify-center pt-6 lg:pt-10 px-4 sm:px-8 lg:px-0 min-h-[500px] lg:min-h-[600px]">
+            <!-- Biography Section -->
+            <div class="w-full lg:w-2/5 bg-[#F5F5F5] flex items-center justify-center px-8 sm:px-12 lg:px-16 py-12 sm:py-16 lg:py-20 order-2 lg:order-1">
+                <div class="max-w-md w-full">
+                    <div class="space-y-3 sm:space-y-4 text-gray-700 text-center leading-relaxed text-sm sm:text-base">
+                        <p>I'm a software engineer by profession,</p>
+                        <p>a hobby photographer by passion,</p>
+                        <p>technology enthusiast and much more.</p>
+
+                        <div class="pt-4 sm:pt-6">
+                            <p class="font-medium">Happiness over Hustle :)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Section -->
+            <div class="w-full lg:w-2/5 bg-cover bg-center bg-no-repeat h-64 sm:h-80 lg:h-auto order-1 lg:order-2" style="background-image: url('/static/images/me.jpg');">
+                <div class="w-full h-full bg-black bg-opacity-20"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white mt-12 sm:mt-16 lg:mt-20">
+        <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
+            <div class="text-center">
+                <p class="text-xs sm:text-sm text-gray-500">© 2025 by vighnesh</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
