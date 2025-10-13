@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <script>
         tailwind.config = {
             theme: {
@@ -21,20 +22,45 @@
             }
         }
     </script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body class="font-montserrat">
     <!-- Navigation -->
-    <nav class="bg-white">
+    <nav class="bg-white shadow-sm">
         <div class="mx-4 sm:mx-8 lg:mx-20 px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex justify-between items-center h-12 sm:h-16">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center gap-2">
                     <div class="w-12 h-8 bg-black rounded-xl flex items-center justify-center font-mono text-white text-md">v/s</div>
                     <a href="/" class="ml-2 text-xl sm:text-2xl text-gray-900" style="font-family: 'Noticia Text', serif;">
-                        <!-- vighnesh<span class="text-4xl sm:text-6xl lg:text-[4rem]">.</span>space -->
                         vighnesh / space
                     </a>
+                </div>
+                
+                <!-- Navigation Links -->
+                <div class="hidden md:flex space-x-2">
+                    <a href="index.html" class="nav-link text-gray-700 hover:text-gray-900">Home</a>
+                    <a href="pages/about.html" class="nav-link text-gray-700 hover:text-gray-900">About</a>
+                    <a href="pages/gallery.html" class="nav-link text-gray-700 hover:text-gray-900">Gallery</a>
+                    <a href="pages/contact.html" class="nav-link text-gray-700 hover:text-gray-900">Contact</a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-toggle" class="text-gray-700 hover:text-gray-900 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="md:hidden hidden mt-4 pb-4">
+                <div class="flex flex-col space-y-2">
+                    <a href="index.html" class="nav-link text-gray-700 hover:text-gray-900">Home</a>
+                    <a href="pages/about.html" class="nav-link text-gray-700 hover:text-gray-900">About</a>
+                    <a href="pages/gallery.html" class="nav-link text-gray-700 hover:text-gray-900">Gallery</a>
+                    <a href="pages/contact.html" class="nav-link text-gray-700 hover:text-gray-900">Contact</a>
                 </div>
             </div>
         </div>
@@ -53,6 +79,17 @@
                         
                         <div class="pt-4 sm:pt-6">
                             <p class="font-medium">Happiness over Hustle :)</p>
+                        </div>
+                        
+                        <div class="pt-6">
+                            <div class="flex justify-center space-x-4">
+                                <a href="pages/gallery.html" class="inline-flex items-center px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors text-sm">
+                                    View Gallery
+                                </a>
+                                <a href="pages/contact.html" class="inline-flex items-center px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors text-sm">
+                                    Get in Touch
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -73,5 +110,6 @@
         </div>
     </footer>
 
+    <script src="js/main.js"></script>
 </body>
 </html> 
