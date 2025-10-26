@@ -233,7 +233,7 @@ const ChatBotDemo = () => {
                 </div>
               </div>
 
-              <div
+              {/* <div
                 className={cn("flex", { hidden: isExpanded })}
                 style={{ gridArea: "leading" }}
               >
@@ -280,14 +280,14 @@ const ChatBotDemo = () => {
                     </DropdownMenuGroup>
                   </DropdownMenuContent>
                 </DropdownMenu>
-              </div>
+              </div> */}
 
               <div
                 className="flex items-center gap-2"
                 style={{ gridArea: isExpanded ? "footer" : "trailing" }}
               >
                 <div className="ms-auto flex items-center gap-1.5">
-                  <Button
+                  {/* <Button
                     type="button"
                     variant="ghost"
                     size="icon"
@@ -303,7 +303,7 @@ const ChatBotDemo = () => {
                     className="h-9 w-9 rounded-full hover:bg-accent relative"
                   >
                     <Volume2 className="size-5 text-muted-foreground" />
-                  </Button>
+                  </Button> */}
 
                   {input.trim() && (
                     <Button
