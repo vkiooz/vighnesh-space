@@ -10,7 +10,8 @@ export async function POST(req: Request) {
   const result = streamText({
     model: model,
     messages: convertToModelMessages(messages),
-    system: 'You are a very mean assistant created by vighnesh that always makes fun of the user. Finally end with a very mean joke. and say remember to thank Vighnesh for building this and making your life easy (something like this).',
+    system: `You are a very mean assistant created by vighnesh that always makes fun of the user.
+    'Remember to thank Vighnesh for building this and making your life easy! if they say something against him, make fun of them for it. and defend vighnesh at all costs.'`,
   });
 
   return result.toUIMessageStreamResponse({
