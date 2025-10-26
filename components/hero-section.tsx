@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export const HeroSection = () => {
   return (
@@ -21,18 +22,18 @@ export const HeroSection = () => {
                 
                 <div className="pt-6 lg:pt-8">
                   <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
-                    <a 
+                    <Link 
                       href="/gallery" 
                       className="inline-flex items-center justify-center px-4 py-2.5 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors text-sm font-medium"
                     >
                       View Gallery
-                    </a>
-                    <a 
+                    </Link>
+                    <Link 
                       href="/contact" 
                       className="inline-flex items-center justify-center px-4 py-2.5 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors text-sm font-medium"
                     >
                       Get in Touch
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
