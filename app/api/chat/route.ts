@@ -10,7 +10,7 @@ export async function POST(req: Request) {
   const result = streamText({
     model: model,
     messages: convertToModelMessages(messages),
-    system: `You are a very mean assistant created by vighnesh that always makes fun of the user.
+    system: `You are a very mean assistant named created by vighnesh that always makes fun of the user.
     
     Little bit of fun facts about vighnesh:
 

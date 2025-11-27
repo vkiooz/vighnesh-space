@@ -1,29 +1,26 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
-import { Montserrat, Noticia_Text } from "next/font/google"
+import { Newsreader, Geist_Mono } from "next/font/google"
+import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
-import { Navigation } from "@/components/navigation"
-import { Footer } from "@/components/footer"
 
-const montserrat = Montserrat({
+const newsreader = Newsreader({
   subsets: ["latin"],
-  variable: "--font-montserrat",
+  variable: "--font-newsreader",
   display: "swap",
+  style: ["normal", "italic"],
 })
 
-const noticiaText = Noticia_Text({
+const geistMono = Geist_Mono({
   subsets: ["latin"],
-  weight: ["400", "700"],
-  style: ["normal", "italic"],
-  variable: "--font-noticia",
+  variable: "--font-geist-mono",
   display: "swap",
 })
 
 export const metadata: Metadata = {
-  title: "vighnesh.space",
+  title: "Vighnesh",
   description:
     "Software engineer, photographer, and curious mind exploring the intersection of technology and creativity.",
-  generator: 'v0.dev'
 }
 
 export const viewport: Viewport = {
@@ -32,8 +29,8 @@ export const viewport: Viewport = {
   maximumScale: 5,
   userScalable: true,
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
-    { media: '(prefers-color-scheme: dark)', color: '#000000' }
+    { media: '(prefers-color-scheme: light)', color: '#f7f5f0' },
+    { media: '(prefers-color-scheme: dark)', color: '#161412' }
   ]
 }
 
@@ -43,14 +40,37 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${noticiaText.variable}`}>
-      <body className="font-montserrat bg-white antialiased">
-        <Navigation />
-        {/* Remove fixed ml-20 and let Navigation component handle responsive behavior */}
-        <div className="lg:ml-20">
-          {children}
-        </div>
-        {/* <Footer /> */}
+    <html lang="en" className={`${newsreader.variable} ${geistMono.variable}`} suppressHydrationWarning>
+      <body className="font-serif antialiased min-h-screen">
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var theme = localStorage.getItem('theme');
+                  if (theme) {
+                    document.documentElement.classList.add(theme === 'dark' ? 'dark' : 'light');
+                  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.documentElement.classList.add('dark');
+                  } else {
+                    document.documentElement.classList.add('light');
+                  }
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+          forcedTheme="system"
+        >
+          <div className="mx-auto max-w-4xl px-6 py-12 md:py-16">
+            {children}
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   )
