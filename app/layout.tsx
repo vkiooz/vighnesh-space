@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
-import { Newsreader, Geist_Mono } from "next/font/google"
+import { Newsreader, Geist_Mono, Caveat } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
@@ -14,6 +14,12 @@ const newsreader = Newsreader({
 const geistMono = Geist_Mono({
   subsets: ["latin"],
   variable: "--font-geist-mono",
+  display: "swap",
+})
+
+const caveat = Caveat({
+  subsets: ["latin"],
+  variable: "--font-caveat",
   display: "swap",
 })
 
@@ -40,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${newsreader.variable} ${geistMono.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${newsreader.variable} ${geistMono.variable} ${caveat.variable}`} suppressHydrationWarning>
       <body className="font-serif antialiased min-h-screen">
         <script
           dangerouslySetInnerHTML={{
