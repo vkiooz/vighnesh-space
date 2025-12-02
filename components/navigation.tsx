@@ -9,6 +9,7 @@ const navItems = [
   { href: "/", label: "home" },
   { href: "/writings", label: "writings" },
   { href: "/gallery", label: "gallery" },
+  { href: "/quotes", label: "quotes" },
 ]
 
 export function Navigation() {

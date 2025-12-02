@@ -63,6 +63,7 @@ export default function HomePage() {
             <div className="space-y-2">
               <LinkItem href="/writings" label="Writings" desc="thoughts and notes" />
               <LinkItem href="/gallery" label="Gallery" desc="photography" />
+              <LinkItem href="/quotes" label="Quotes" desc="favorite quotes" />
               <LinkItem href="/list100" label="List 100" desc="things to do before 100" />
               <LinkItem href="/roast" label="Roast Me" desc="AI with a flavour" />
             </div>

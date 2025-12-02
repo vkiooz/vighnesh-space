@@ -73,6 +73,11 @@ export default async function PostPage({ params }: Props) {
 
 function parseMarkdown(content: string): string {
   return content
+    // Images: ![alt](url) optionally with title like ![alt](url "caption")
+    .replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]+)")?\)/g, (m, alt, src, title) => {
+      const caption = title ? `<figcaption class="text-sm text-muted-foreground mt-2">${title}</figcaption>` : ''
+      return `<figure class="mx-auto my-6"><img src="${src}" alt="${alt || ''}" class="rounded-md"/>${caption}</figure>`
+    })
     .replace(/^### (.*$)/gim, '<h3>$1</h3>')
     .replace(/^## (.*$)/gim, '<h2>$1</h2>')
     .replace(/^# (.*$)/gim, '<h1>$1</h1>')
