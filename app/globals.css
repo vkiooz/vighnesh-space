@@ -164,3 +164,114 @@ html {
     font-size: 16px;
   }
 }
+
+/* =============================================
+   GALLERY - Minimal Custom CSS
+   Only styles that can't be done with Tailwind
+   ============================================= */
+
+/* Full Bleed Container - breaks out of parent constraints */
+.gallery-luxe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important;
+  width: 100vw !important;
+  min-height: 100vh;
+  background: #ffffff;
+  color: #1a1815;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 100;
+  /* Performance optimizations */
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* GPU acceleration for gallery images */
+.gallery-luxe img {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: auto;
+}
+
+/* Reduce paint areas during scroll */
+.gallery-luxe section {
+  contain: layout style;
+}
+
+body:has(.gallery-luxe) {
+  overflow: hidden;
+}
+
+body:has(.gallery-luxe) > div,
+body:has(.gallery-luxe) > div > div {
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Peek images - half visible overflow effect */
+.gallery-peek {
+  width: 80px;
+}
+
+.gallery-peek-left {
+  margin-left: -40px;
+}
+
+.gallery-peek-right {
+  margin-right: -40px;
+}
+
+@media (min-width: 768px) {
+  .gallery-peek {
+    width: 120px;
+  }
+  .gallery-peek-left {
+    margin-left: -60px;
+  }
+  .gallery-peek-right {
+    margin-right: -60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery-peek {
+    width: 180px;
+  }
+  .gallery-peek-left {
+    margin-left: -90px;
+  }
+  .gallery-peek-right {
+    margin-right: -90px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .gallery-peek {
+    width: 240px;
+  }
+  .gallery-peek-left {
+    margin-left: -120px;
+  }
+  .gallery-peek-right {
+    margin-right: -120px;
+  }
+}
+
+/* Scrollbar hide utility */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
