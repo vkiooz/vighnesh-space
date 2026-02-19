@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Navigation } from "@/components/navigation"
-import { ArrowUpRight, ExternalLink, Github, Linkedin, Twitter, Grid3x3 } from "lucide-react"
+import { ArrowUpRight, ExternalLink, Github, Linkedin, Twitter } from "lucide-react"
 
 const experience = [
   { year: "2024-now", role: "DevOps Engineer 2", company: "Hevo Data", current: true, school: undefined, degree: undefined, grade: undefined },
@@ -83,10 +83,7 @@ export default function HomePage() {
               <Twitter className="w-4 h-4" />
               <span className="text-sm">Twitter</span>
             </Link>
-            <Link href="https://bento.me/vi9" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
-              <Grid3x3 className="w-4 h-4" />
-              <span className="text-sm">Bento</span>
-            </Link>
+
           </div>
         </div>
 
