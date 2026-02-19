@@ -207,7 +207,7 @@ This project is licensed under the MIT License.
 
 For questions or support, please contact:
 - Email: hello@vighnesh.space
-- GitHub: [Create an issue](https://github.com/vighnesh/vighnesh-space/issues)
+- GitHub: [Create an issue](https://github.com/vkiooz/vighnesh-space/issues)
 
 ---
 

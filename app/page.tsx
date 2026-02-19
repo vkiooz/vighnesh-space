@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Navigation } from "@/components/navigation"
-import { ArrowUpRight, ExternalLink, Github, Linkedin, Twitter, Grid3x3 } from "lucide-react"
+import { ArrowUpRight, ExternalLink, Github, Linkedin, Twitter } from "lucide-react"
 
 const experience = [
   { year: "2024-now", role: "DevOps Engineer 2", company: "Hevo Data", current: true, school: undefined, degree: undefined, grade: undefined },
@@ -71,7 +71,7 @@ export default function HomePage() {
 
           {/* Social */}
           <div className="mt-8 flex gap-4">
-            <Link href="https://github.com/vi9hnesh" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
+            <Link href="https://github.com/vkiooz" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
               <Github className="w-4 h-4" />
               <span className="text-sm">GitHub</span>
             </Link>
@@ -79,14 +79,11 @@ export default function HomePage() {
               <Linkedin className="w-4 h-4" />
               <span className="text-sm">LinkedIn</span>
             </Link>
-            <Link href="https://x.com/vighnesh_001" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
+            <Link href="https://x.com/vkiooz" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
               <Twitter className="w-4 h-4" />
               <span className="text-sm">Twitter</span>
             </Link>
-            <Link href="https://bento.me/vi9" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
-              <Grid3x3 className="w-4 h-4" />
-              <span className="text-sm">Bento</span>
-            </Link>
+
           </div>
         </div>
 

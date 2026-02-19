@@ -30,9 +30,9 @@ export default function ContactPage() {
         <div className="mt-8">
           <p className="text-sm text-muted-foreground mb-3">Elsewhere</p>
           <div className="flex gap-4 text-sm">
-            <SocialLink href="https://github.com/vighneshk" label="GitHub" />
+            <SocialLink href="https://github.com/vkiooz" label="GitHub" />
             <SocialLink href="https://linkedin.com/in/vighneshk" label="LinkedIn" />
-            <SocialLink href="https://twitter.com/vighneshk" label="Twitter" />
+            <SocialLink href="https://x.com/vkiooz" label="Twitter" />
             <SocialLink href="https://instagram.com/vighneshk" label="Instagram" />
           </div>
         </div>
