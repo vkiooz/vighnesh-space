@@ -71,7 +71,7 @@ export default function HomePage() {
 
           {/* Social */}
           <div className="mt-8 flex gap-4">
-            <Link href="https://github.com/vi9hnesh" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
+            <Link href="https://github.com/vkiooz" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
               <Github className="w-4 h-4" />
               <span className="text-sm">GitHub</span>
             </Link>
@@ -79,7 +79,7 @@ export default function HomePage() {
               <Linkedin className="w-4 h-4" />
               <span className="text-sm">LinkedIn</span>
             </Link>
-            <Link href="https://x.com/vighnesh_001" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
+            <Link href="https://x.com/vkiooz" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
               <Twitter className="w-4 h-4" />
               <span className="text-sm">Twitter</span>
             </Link>
