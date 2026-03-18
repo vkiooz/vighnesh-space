@@ -1,10 +1,12 @@
 "use client"
 
 import { useState } from "react"
+import { useAuth } from "@clerk/nextjs"
 import { Navigation } from "@/components/navigation"
 import { movies, getMoviesByYear, getYears, getFormats, getUniqueMovieCount, type Movie } from "@/lib/movies"
 
 export default function MoviesPage() {
+  const { isSignedIn } = useAuth()
   const [filterYear, setFilterYear] = useState<string>("all")
   const [filterFormat, setFilterFormat] = useState<string>("all")
   const years = getYears()
@@ -78,7 +80,7 @@ export default function MoviesPage() {
               <h2 className="text-sm font-medium text-muted-foreground mb-3">{year}</h2>
               <div className="space-y-2">
                 {filteredByYear[year].map((movie) => (
-                  <MovieCard key={movie.booking_id} movie={movie} />
+                  <MovieCard key={movie.booking_id} movie={movie} showDetails={!!isSignedIn} />
                 ))}
               </div>
             </section>
@@ -112,7 +114,7 @@ function FilterButton({
   )
 }
 
-function MovieCard({ movie }: { movie: Movie }) {
+function MovieCard({ movie, showDetails }: { movie: Movie; showDetails: boolean }) {
   const date = new Date(movie.date)
   const formattedDate = date.toLocaleDateString("en-IN", {
     day: "numeric",
@@ -127,13 +129,29 @@ function MovieCard({ movie }: { movie: Movie }) {
       </div>
       <div className="flex-1 min-w-0">
         <div className="flex items-start justify-between gap-2">
-          <h3 className="text-sm font-medium leading-snug">{movie.title}</h3>
+          <a
+            href={`https://www.imdb.com/find/?q=${encodeURIComponent(movie.title)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-medium leading-snug hover:underline"
+          >
+            {movie.title}
+          </a>
           <span className="text-xs px-1.5 py-0.5 rounded bg-muted text-muted-foreground flex-shrink-0">
             {movie.format}
           </span>
         </div>
-        {movie.note && (
-          <p className="text-xs text-muted-foreground/70 mt-1 italic">{movie.note}</p>
+        {showDetails && (
+          <div className="text-xs text-muted-foreground mt-1 flex flex-wrap gap-x-3 gap-y-0.5">
+            <span>{movie.time}</span>
+            <span>{movie.screen}</span>
+            <span>{movie.venue}</span>
+            {movie.tickets && <span>{movie.tickets} ticket{movie.tickets > 1 ? "s" : ""}</span>}
+            {movie.amount_paid_INR && <span>₹{movie.amount_paid_INR.toFixed(2)}</span>}
+          </div>
+        )}
+        {(movie.note || movie.notes) && (
+          <p className="text-xs text-muted-foreground/70 mt-1 italic">{movie.notes || movie.note}</p>
         )}
       </div>
     </div>

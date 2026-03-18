@@ -7,7 +7,10 @@
     "venue": "PVR: Nexus (Formerly Forum), Koramangala",
     "screen": "AUDI 1 IMAX",
     "city": "Bengaluru",
-    "booking_id": "TKARF2B"
+    "booking_id": "TKARF2B",
+    "tickets": 1,
+    "amount_paid_INR": 456.82,
+    "notes": ""
   },
   {
     "title": "Hoppers",
@@ -17,7 +20,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 07 4DX",
     "city": "Bengaluru",
-    "booking_id": "TCA3AKA"
+    "booking_id": "TCA3AKA",
+    "tickets": 1,
+    "amount_paid_INR": 650.71,
+    "notes": ""
   },
   {
     "title": "Good Luck, Have Fun, Don't Die",
@@ -27,7 +33,10 @@
     "venue": "PVR: Nexus (Formerly Forum), Koramangala",
     "screen": "AUDI 8",
     "city": "Bengaluru",
-    "booking_id": "TEAEFKQ"
+    "booking_id": "TEAEFKQ",
+    "tickets": 1,
+    "amount_paid_INR": 437.82,
+    "notes": ""
   },
   {
     "title": "Send Help",
@@ -37,7 +46,10 @@
     "venue": "PVR: Superplex Forum Mall, Kanakapura Road",
     "screen": "AUDI 11 4DX",
     "city": "Bengaluru",
-    "booking_id": "TDA3FK4"
+    "booking_id": "TDA3FK4",
+    "tickets": 1,
+    "amount_paid_INR": 289.12,
+    "notes": ""
   },
   {
     "title": "Marty Supreme",
@@ -47,7 +59,10 @@
     "venue": "PVR: Nexus (Formerly Forum), Koramangala",
     "screen": "AUDI 4",
     "city": "Bengaluru",
-    "booking_id": "TLAAKNY"
+    "booking_id": "TLAAKNY",
+    "tickets": 1,
+    "amount_paid_INR": 336.02,
+    "notes": ""
   },
   {
     "title": "Dhurandhar",
@@ -57,7 +72,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 04",
     "city": "Bengaluru",
-    "booking_id": "T8A5JMS"
+    "booking_id": "T8A5JMS",
+    "tickets": 1,
+    "amount_paid_INR": 519.62,
+    "notes": ""
   },
   {
     "title": "Wicked: For Good",
@@ -67,7 +85,10 @@
     "venue": "Cinepolis: Lulu Mall, Bengaluru",
     "screen": "SCREEN 03",
     "city": "Bengaluru",
-    "booking_id": "WW9RFRX"
+    "booking_id": "WW9RFRX",
+    "tickets": 2,
+    "amount_paid_INR": 550.8,
+    "notes": "Cinepolis Lulu Mall"
   },
   {
     "title": "Now You See Me: Now You Don't",
@@ -77,7 +98,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 05",
     "city": "Bengaluru",
-    "booking_id": "TYAXHZD"
+    "booking_id": "TYAXHZD",
+    "tickets": 1,
+    "amount_paid_INR": 245.4,
+    "notes": ""
   },
   {
     "title": "Bugonia",
@@ -87,7 +111,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 05",
     "city": "Bengaluru",
-    "booking_id": "TUAADU6"
+    "booking_id": "TUAADU6",
+    "tickets": 1,
+    "amount_paid_INR": 377.2,
+    "notes": ""
   },
   {
     "title": "Bugonia",
@@ -97,7 +124,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 05",
     "city": "Bengaluru",
-    "booking_id": "TQA6KM6"
+    "booking_id": "TQA6KM6",
+    "tickets": 1,
+    "amount_paid_INR": 322.48,
+    "notes": ""
   },
   {
     "title": "Su From So",
@@ -107,7 +137,10 @@
     "venue": "PVR: Orion Mall, Dr Rajkumar Road",
     "screen": "AUDI 06",
     "city": "Bengaluru",
-    "booking_id": "TSA6FV6"
+    "booking_id": "TSA6FV6",
+    "tickets": 2,
+    "amount_paid_INR": 584.96,
+    "notes": "PVR Orion Mall"
   },
   {
     "title": "Weapons",
@@ -117,7 +150,10 @@
     "venue": "PVR: Nexus (Formerly Forum), Koramangala",
     "screen": "AUDI 6",
     "city": "Bengaluru",
-    "booking_id": "TAAJEBD"
+    "booking_id": "TAAJEBD",
+    "tickets": 1,
+    "amount_paid_INR": 292.48,
+    "notes": ""
   },
   {
     "title": "The Fantastic Four: First Steps",
@@ -127,7 +163,10 @@
     "venue": "PVR: Nexus (Formerly Forum), Koramangala",
     "screen": "AUDI 1 IMAX",
     "city": "Bengaluru",
-    "booking_id": "TKAKFBA"
+    "booking_id": "TKAKFBA",
+    "tickets": 1,
+    "amount_paid_INR": 453.28,
+    "notes": ""
   },
   {
     "title": "Jurassic World: Rebirth",
@@ -137,7 +176,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 03",
     "city": "Bengaluru",
-    "booking_id": "TQA5CBF"
+    "booking_id": "TQA5CBF",
+    "tickets": 2,
+    "amount_paid_INR": 754.4,
+    "notes": ""
   },
   {
     "title": "Superman",
@@ -147,7 +189,10 @@
     "venue": "PVR: Nexus (Formerly Forum), Koramangala",
     "screen": "AUDI 1 IMAX",
     "city": "Bengaluru",
-    "booking_id": "T8AZK5C"
+    "booking_id": "T8AZK5C",
+    "tickets": 1,
+    "amount_paid_INR": 704.34,
+    "notes": ""
   },
   {
     "title": "F1: The Movie",
@@ -157,7 +202,10 @@
     "venue": "Cinepolis: SJR (Central Mall) Arekere, Bannergatta",
     "screen": "AUDI 6",
     "city": "Bengaluru",
-    "booking_id": "WQHP79S"
+    "booking_id": "WQHP79S",
+    "tickets": 2,
+    "amount_paid_INR": 868.56,
+    "notes": "Cinepolis SJR"
   },
   {
     "title": "From the World of John Wick: Ballerina",
@@ -167,7 +215,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 07 4DX",
     "city": "Bengaluru",
-    "booking_id": "T6APAA5"
+    "booking_id": "T6APAA5",
+    "tickets": 2,
+    "amount_paid_INR": 1032.16,
+    "notes": ""
   },
   {
     "title": "Lilo & Stitch",
@@ -178,7 +229,10 @@
     "screen": "AUDI 04",
     "city": "Bengaluru",
     "booking_id": "T3AQAGR",
-    "note": "Replacement booking (original TPAMDXM refunded)"
+    "note": "Replacement booking (original TPAMDXM refunded)",
+    "tickets": 2,
+    "amount_paid_INR": 1753.4,
+    "notes": "Replacement booking; PVR Directors Cut Forum Rex Walk"
   },
   {
     "title": "Lilo & Stitch",
@@ -189,7 +243,10 @@
     "screen": "AUDI 04",
     "city": "Bengaluru",
     "booking_id": "TPAMDXM",
-    "note": "Refunded"
+    "note": "Refunded",
+    "tickets": 2,
+    "amount_paid_INR": 1753.4,
+    "notes": "Refunded original booking"
   },
   {
     "title": "Final Destination Bloodlines",
@@ -199,7 +256,10 @@
     "venue": "PVR: Nexus (Formerly Forum), Koramangala",
     "screen": "AUDI 4",
     "city": "Bengaluru",
-    "booking_id": "TBA9D7Y"
+    "booking_id": "TBA9D7Y",
+    "tickets": 2,
+    "amount_paid_INR": 530.8,
+    "notes": ""
   },
   {
     "title": "Sinners",
@@ -209,7 +269,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 02 IMAX",
     "city": "Bengaluru",
-    "booking_id": "TEABEQC"
+    "booking_id": "TEABEQC",
+    "tickets": 1,
+    "amount_paid_INR": 367.2,
+    "notes": "PVR Vega City Bannerghatta Road"
   },
   {
     "title": "Presence",
@@ -219,7 +282,10 @@
     "venue": "PVR: Phoenix Marketcity Mall, Whitefield Road",
     "screen": "AUDI 09",
     "city": "Bengaluru",
-    "booking_id": "TUAXC5G"
+    "booking_id": "TUAXC5G",
+    "tickets": 2,
+    "amount_paid_INR": 604.96,
+    "notes": "PVR Phoenix Marketcity Whitefield"
   },
   {
     "title": "Mickey 17",
@@ -229,7 +295,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 02 IMAX",
     "city": "Bengaluru",
-    "booking_id": "TRALFAN"
+    "booking_id": "TRALFAN",
+    "tickets": 1,
+    "amount_paid_INR": 332.48,
+    "notes": "PVR Vega City Bannerghatta Road"
   },
   {
     "title": "A Complete Unknown",
@@ -239,7 +308,10 @@
     "venue": "PVR: Orion Mall, Dr Rajkumar Road",
     "screen": "AUDI 06",
     "city": "Bengaluru",
-    "booking_id": "T4ADEKP"
+    "booking_id": "T4ADEKP",
+    "tickets": 2,
+    "amount_paid_INR": 490.8,
+    "notes": "PVR Orion Mall"
   },
   {
     "title": "Chhaava",
@@ -249,7 +321,10 @@
     "venue": "PVR: Nexus (Formerly Forum), Koramangala",
     "screen": "AUDI 2 4DX",
     "city": "Bengaluru",
-    "booking_id": "T4AMF5V"
+    "booking_id": "T4AMF5V",
+    "tickets": 2,
+    "amount_paid_INR": 1173.4,
+    "notes": "PVR Nexus Koramangala"
   },
   {
     "title": "Conclave",
@@ -259,7 +334,10 @@
     "venue": "PVR: Nexus (Formerly Forum), Koramangala",
     "screen": "AUDI 8",
     "city": "Bengaluru",
-    "booking_id": "TVALKVK"
+    "booking_id": "TVALKVK",
+    "tickets": 1,
+    "amount_paid_INR": 377.2,
+    "notes": "UPI; PVR Nexus Koramangala"
   },
   {
     "title": "UI (2024)",
@@ -269,7 +347,10 @@
     "venue": "Gopalan Cinemas: Bannerghatta Road",
     "screen": "Screen 1",
     "city": "Bengaluru",
-    "booking_id": "WW6MFFN"
+    "booking_id": "WW6MFFN",
+    "tickets": 1,
+    "amount_paid_INR": 235.4,
+    "notes": "UPI; Gopalan Cinemas Bannerghatta Road"
   },
   {
     "title": "Pushpa 2: The Rule",
@@ -279,7 +360,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 02 IMAX",
     "city": "Bengaluru",
-    "booking_id": "TSAQBSR"
+    "booking_id": "TSAQBSR",
+    "tickets": 1,
+    "amount_paid_INR": 950.3,
+    "notes": "UPI; PVR Vega City Bannerghatta Road"
   },
   {
     "title": "The Wild Robot",
@@ -289,7 +373,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 07 4DX",
     "city": "Bengaluru",
-    "booking_id": "T8AEHGW"
+    "booking_id": "T8AEHGW",
+    "tickets": 1,
+    "amount_paid_INR": 596.7,
+    "notes": "UPI; PVR Vega City Bannerghatta Road"
   },
   {
     "title": "Gladiator II",
@@ -299,7 +386,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 08",
     "city": "Bengaluru",
-    "booking_id": "TEARAHU"
+    "booking_id": "TEARAHU",
+    "tickets": 1,
+    "amount_paid_INR": 179.5,
+    "notes": "UPI; PVR Vega City Bannerghatta Road"
   },
   {
     "title": "Smile 2",
@@ -309,7 +399,10 @@
     "venue": "PVR: Nexus (Formerly Forum), Koramangala",
     "screen": "AUDI 4",
     "city": "Bengaluru",
-    "booking_id": "TCAJH2N"
+    "booking_id": "TCAJH2N",
+    "tickets": 1,
+    "amount_paid_INR": 265.4,
+    "notes": "UPI; PVR Nexus Koramangala"
   },
   {
     "title": "Jigra",
@@ -319,7 +412,10 @@
     "venue": "PVR: Nexus (Formerly Forum), Koramangala",
     "screen": "AUDI 4",
     "city": "Bengaluru",
-    "booking_id": "TLAFGJN"
+    "booking_id": "TLAFGJN",
+    "tickets": 1,
+    "amount_paid_INR": 275.4,
+    "notes": "UPI; PVR Nexus Koramangala"
   },
   {
     "title": "Alien: Romulus",
@@ -329,7 +425,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 07 4DX",
     "city": "Bengaluru",
-    "booking_id": "TSA3HQD"
+    "booking_id": "TSA3HQD",
+    "tickets": 1,
+    "amount_paid_INR": 444.28,
+    "notes": "UPI; PVR Vega City Bannerghatta Road"
   },
   {
     "title": "The Buckingham Murders",
@@ -339,7 +438,10 @@
     "venue": "Cinepolis: Lulu Mall, Bengaluru",
     "screen": "SCREEN 07",
     "city": "Bengaluru",
-    "booking_id": "WSNW7ZJ"
+    "booking_id": "WSNW7ZJ",
+    "tickets": 1,
+    "amount_paid_INR": 199.5,
+    "notes": "Cinepolis Lulu Mall"
   },
   {
     "title": "Deadpool & Wolverine",
@@ -349,7 +451,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 07 4DX",
     "city": "Bengaluru",
-    "booking_id": "TFAGCS5"
+    "booking_id": "TFAGCS5",
+    "tickets": 1,
+    "amount_paid_INR": 706.7,
+    "notes": "UPI; PVR Vega City Bannerghatta Road"
   },
   {
     "title": "Bad Boys: Ride or Die",
@@ -359,7 +464,10 @@
     "venue": "PVR: Superplex Forum Mall, Kanakapura Road",
     "screen": "AUDI 12 ICE",
     "city": "Bengaluru",
-    "booking_id": "TLAHAW4"
+    "booking_id": "TLAHAW4",
+    "tickets": 1,
+    "amount_paid_INR": 322.48,
+    "notes": "PVR Superplex Forum Mall Kanakapura Road"
   },
   {
     "title": "Challengers",
@@ -369,7 +477,10 @@
     "venue": "PVR: Nexus (Formerly Forum), Koramangala",
     "screen": "AUDI 8",
     "city": "Bengaluru",
-    "booking_id": "T8AAE9X"
+    "booking_id": "T8AAE9X",
+    "tickets": 1,
+    "amount_paid_INR": 302.48,
+    "notes": "UPI; PVR Nexus Koramangala"
   },
   {
     "title": "Dune: Part Two",
@@ -379,7 +490,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 02 IMAX",
     "city": "Bengaluru",
-    "booking_id": "TPAYE2B"
+    "booking_id": "TPAYE2B",
+    "tickets": 2,
+    "amount_paid_INR": 716.4,
+    "notes": "UPI; PVR Vega City Bannerghatta Road; includes BookASmile donation"
   },
   {
     "title": "Dune: Part Two",
@@ -389,7 +503,10 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 02 IMAX",
     "city": "Bengaluru",
-    "booking_id": "WNZNKX7"
+    "booking_id": "WNZNKX7",
+    "tickets": 1,
+    "amount_paid_INR": 323.48,
+    "notes": "PVR Vega City Bannerghatta Road; includes BookASmile donation"
   },
   {
     "title": "The Nun II",
@@ -399,7 +516,10 @@
     "venue": "PVR: 4DX, Orion Mall, Dr Rajkumar Road",
     "screen": "AUDI 03 4DX",
     "city": "Bengaluru",
-    "booking_id": "WQDQ2ZN"
+    "booking_id": "WQDQ2ZN",
+    "tickets": 2,
+    "amount_paid_INR": 1029.44,
+    "notes": "PVR 4DX Orion Mall; includes BookASmile donation"
   },
   {
     "title": "Oppenheimer",
@@ -409,6 +529,9 @@
     "venue": "PVR: Vega City, Bannerghatta Road",
     "screen": "AUDI 02 IMAX",
     "city": "Bengaluru",
-    "booking_id": "WNKTSMW"
+    "booking_id": "WNKTSMW",
+    "tickets": 2,
+    "amount_paid_INR": 1329.44,
+    "notes": "UPI; PVR Vega City Bannerghatta Road; includes BookASmile donation"
   }
 ]

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  overflow-y: scroll;
+}
+
 @layer base {
   :root {
     /* Light mode - warm cream/paper like leerob */

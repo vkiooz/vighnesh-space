@@ -10,6 +10,9 @@ export type Movie = {
   city: string
   booking_id: string
   note?: string
+  tickets?: number
+  amount_paid_INR?: number
+  notes?: string
 }
 
 export const movies: Movie[] = moviesData as Movie[]

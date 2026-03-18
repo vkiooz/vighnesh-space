@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
 import { Newsreader, Geist_Mono, Caveat } from "next/font/google"
+import { ClerkProvider } from "@clerk/nextjs"
 import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
@@ -66,17 +67,19 @@ export default function RootLayout({
             `,
           }}
         />
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-          forcedTheme="system"
-        >
-          <div className="mx-auto max-w-4xl px-6 py-12 md:py-16">
-            {children}
-          </div>
-        </ThemeProvider>
+        <ClerkProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+            forcedTheme="system"
+          >
+            <div className="mx-auto max-w-4xl px-6 py-12 md:py-16">
+              {children}
+            </div>
+          </ThemeProvider>
+        </ClerkProvider>
       </body>
     </html>
   )
