@@ -75,7 +75,7 @@ export default function RootLayout({
             disableTransitionOnChange
             forcedTheme="system"
           >
-            <div className="mx-auto max-w-4xl px-6 py-12 md:py-16">
+            <div className="mx-auto max-w-7xl px-6 py-12 md:py-16">
               {children}
             </div>
           </ThemeProvider>

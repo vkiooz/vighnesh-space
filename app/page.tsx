@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Navigation } from "@/components/navigation"
-import { ArrowUpRight, ExternalLink, Github, Linkedin, Twitter } from "lucide-react"
+import { ArrowUpRight, ExternalLink } from "lucide-react"
 
 const experience = [
   { year: "2024-now", role: "DevOps Engineer 2", company: "Hevo Data", current: true, school: undefined, degree: undefined, grade: undefined },
@@ -71,19 +71,15 @@ export default function HomePage() {
 
           {/* Social */}
           <div className="mt-8 flex gap-4">
-            <Link href="https://github.com/vkiooz" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
-              <Github className="w-4 h-4" />
-              <span className="text-sm">GitHub</span>
+            <Link href="https://github.com/vkiooz" target="_blank" className="text-muted-foreground hover:text-foreground text-sm">
+              GitHub
             </Link>
-            <Link href="https://www.linkedin.com/in/vighneshks/" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
-              <Linkedin className="w-4 h-4" />
-              <span className="text-sm">LinkedIn</span>
+            <Link href="https://www.linkedin.com/in/vighneshks/" target="_blank" className="text-muted-foreground hover:text-foreground text-sm">
+              LinkedIn
             </Link>
-            <Link href="https://x.com/vkiooz" target="_blank" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5">
-              <Twitter className="w-4 h-4" />
-              <span className="text-sm">Twitter</span>
+            <Link href="https://x.com/vkiooz" target="_blank" className="text-muted-foreground hover:text-foreground text-sm">
+              Twitter
             </Link>
-
           </div>
         </div>
 

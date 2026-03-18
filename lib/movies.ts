@@ -13,6 +13,8 @@ export type Movie = {
   tickets?: number
   amount_paid_INR?: number
   notes?: string
+  imdb_url?: string
+  poster?: string
 }
 
 export const movies: Movie[] = moviesData as Movie[]

@@ -10,7 +10,9 @@
     "booking_id": "TKARF2B",
     "tickets": 1,
     "amount_paid_INR": 456.82,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt16311594/",
+    "poster": "/posters/f1-the-movie.jpg"
   },
   {
     "title": "Hoppers",
@@ -23,7 +25,9 @@
     "booking_id": "TCA3AKA",
     "tickets": 1,
     "amount_paid_INR": 650.71,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt26443616/",
+    "poster": "/posters/hoppers.jpg"
   },
   {
     "title": "Good Luck, Have Fun, Don't Die",
@@ -36,7 +40,9 @@
     "booking_id": "TEAEFKQ",
     "tickets": 1,
     "amount_paid_INR": 437.82,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt1341338/",
+    "poster": "/posters/good-luck-have-fun-don-t-die.jpg"
   },
   {
     "title": "Send Help",
@@ -49,7 +55,9 @@
     "booking_id": "TDA3FK4",
     "tickets": 1,
     "amount_paid_INR": 289.12,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt8036976/",
+    "poster": "/posters/send-help.jpg"
   },
   {
     "title": "Marty Supreme",
@@ -62,7 +70,9 @@
     "booking_id": "TLAAKNY",
     "tickets": 1,
     "amount_paid_INR": 336.02,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt32916440/",
+    "poster": "/posters/marty-supreme.jpg"
   },
   {
     "title": "Dhurandhar",
@@ -75,7 +85,9 @@
     "booking_id": "T8A5JMS",
     "tickets": 1,
     "amount_paid_INR": 519.62,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt33014583/",
+    "poster": "/posters/dhurandhar.jpg"
   },
   {
     "title": "Wicked: For Good",
@@ -88,7 +100,9 @@
     "booking_id": "WW9RFRX",
     "tickets": 2,
     "amount_paid_INR": 550.8,
-    "notes": "Cinepolis Lulu Mall"
+    "notes": "Cinepolis Lulu Mall",
+    "imdb_url": "https://www.imdb.com/title/tt19847976/",
+    "poster": "/posters/wicked-for-good.jpg"
   },
   {
     "title": "Now You See Me: Now You Don't",
@@ -101,7 +115,9 @@
     "booking_id": "TYAXHZD",
     "tickets": 1,
     "amount_paid_INR": 245.4,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt4712810/",
+    "poster": "/posters/now-you-see-me-now-you-don-t.jpg"
   },
   {
     "title": "Bugonia",
@@ -114,7 +130,9 @@
     "booking_id": "TUAADU6",
     "tickets": 1,
     "amount_paid_INR": 377.2,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt12300742/",
+    "poster": "/posters/bugonia.jpg"
   },
   {
     "title": "Bugonia",
@@ -127,7 +145,9 @@
     "booking_id": "TQA6KM6",
     "tickets": 1,
     "amount_paid_INR": 322.48,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt12300742/",
+    "poster": "/posters/bugonia.jpg"
   },
   {
     "title": "Su From So",
@@ -140,7 +160,9 @@
     "booking_id": "TSA6FV6",
     "tickets": 2,
     "amount_paid_INR": 584.96,
-    "notes": "PVR Orion Mall"
+    "notes": "PVR Orion Mall",
+    "imdb_url": "https://www.imdb.com/title/tt37629310/",
+    "poster": "/posters/su-from-so.jpg"
   },
   {
     "title": "Weapons",
@@ -153,7 +175,9 @@
     "booking_id": "TAAJEBD",
     "tickets": 1,
     "amount_paid_INR": 292.48,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt26581740/",
+    "poster": "/posters/weapons.jpg"
   },
   {
     "title": "The Fantastic Four: First Steps",
@@ -166,7 +190,9 @@
     "booking_id": "TKAKFBA",
     "tickets": 1,
     "amount_paid_INR": 453.28,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt10676052/",
+    "poster": "/posters/the-fantastic-four-first-steps.jpg"
   },
   {
     "title": "Jurassic World: Rebirth",
@@ -179,7 +205,9 @@
     "booking_id": "TQA5CBF",
     "tickets": 2,
     "amount_paid_INR": 754.4,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt31036941/",
+    "poster": "/posters/jurassic-world-rebirth.jpg"
   },
   {
     "title": "Superman",
@@ -192,7 +220,9 @@
     "booking_id": "T8AZK5C",
     "tickets": 1,
     "amount_paid_INR": 704.34,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt5950044/",
+    "poster": "/posters/superman.jpg"
   },
   {
     "title": "F1: The Movie",
@@ -205,7 +235,9 @@
     "booking_id": "WQHP79S",
     "tickets": 2,
     "amount_paid_INR": 868.56,
-    "notes": "Cinepolis SJR"
+    "notes": "Cinepolis SJR",
+    "imdb_url": "https://www.imdb.com/title/tt16311594/",
+    "poster": "/posters/f1-the-movie.jpg"
   },
   {
     "title": "From the World of John Wick: Ballerina",
@@ -218,7 +250,9 @@
     "booking_id": "T6APAA5",
     "tickets": 2,
     "amount_paid_INR": 1032.16,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt7181546/",
+    "poster": "/posters/from-the-world-of-john-wick-ballerina.jpg"
   },
   {
     "title": "Lilo & Stitch",
@@ -232,7 +266,9 @@
     "note": "Replacement booking (original TPAMDXM refunded)",
     "tickets": 2,
     "amount_paid_INR": 1753.4,
-    "notes": "Replacement booking; PVR Directors Cut Forum Rex Walk"
+    "notes": "Replacement booking; PVR Directors Cut Forum Rex Walk",
+    "imdb_url": "https://www.imdb.com/title/tt11655566/",
+    "poster": "/posters/lilo-stitch.jpg"
   },
   {
     "title": "Lilo & Stitch",
@@ -246,7 +282,9 @@
     "note": "Refunded",
     "tickets": 2,
     "amount_paid_INR": 1753.4,
-    "notes": "Refunded original booking"
+    "notes": "Refunded original booking",
+    "imdb_url": "https://www.imdb.com/title/tt11655566/",
+    "poster": "/posters/lilo-stitch.jpg"
   },
   {
     "title": "Final Destination Bloodlines",
@@ -259,7 +297,9 @@
     "booking_id": "TBA9D7Y",
     "tickets": 2,
     "amount_paid_INR": 530.8,
-    "notes": ""
+    "notes": "",
+    "imdb_url": "https://www.imdb.com/title/tt9619824/",
+    "poster": "/posters/final-destination-bloodlines.jpg"
   },
   {
     "title": "Sinners",
@@ -272,7 +312,9 @@
     "booking_id": "TEABEQC",
     "tickets": 1,
     "amount_paid_INR": 367.2,
-    "notes": "PVR Vega City Bannerghatta Road"
+    "notes": "PVR Vega City Bannerghatta Road",
+    "imdb_url": "https://www.imdb.com/title/tt31193180/",
+    "poster": "/posters/sinners.jpg"
   },
   {
     "title": "Presence",
@@ -285,7 +327,9 @@
     "booking_id": "TUAXC5G",
     "tickets": 2,
     "amount_paid_INR": 604.96,
-    "notes": "PVR Phoenix Marketcity Whitefield"
+    "notes": "PVR Phoenix Marketcity Whitefield",
+    "imdb_url": "https://www.imdb.com/title/tt28249919/",
+    "poster": "/posters/presence.jpg"
   },
   {
     "title": "Mickey 17",
@@ -298,7 +342,9 @@
     "booking_id": "TRALFAN",
     "tickets": 1,
     "amount_paid_INR": 332.48,
-    "notes": "PVR Vega City Bannerghatta Road"
+    "notes": "PVR Vega City Bannerghatta Road",
+    "imdb_url": "https://www.imdb.com/title/tt12299608/",
+    "poster": "/posters/mickey-17.jpg"
   },
   {
     "title": "A Complete Unknown",
@@ -311,7 +357,9 @@
     "booking_id": "T4ADEKP",
     "tickets": 2,
     "amount_paid_INR": 490.8,
-    "notes": "PVR Orion Mall"
+    "notes": "PVR Orion Mall",
+    "imdb_url": "https://www.imdb.com/title/tt11563598/",
+    "poster": "/posters/a-complete-unknown.jpg"
   },
   {
     "title": "Chhaava",
@@ -324,7 +372,9 @@
     "booking_id": "T4AMF5V",
     "tickets": 2,
     "amount_paid_INR": 1173.4,
-    "notes": "PVR Nexus Koramangala"
+    "notes": "PVR Nexus Koramangala",
+    "imdb_url": "https://www.imdb.com/title/tt27922706/",
+    "poster": "/posters/chhaava.jpg"
   },
   {
     "title": "Conclave",
@@ -337,7 +387,9 @@
     "booking_id": "TVALKVK",
     "tickets": 1,
     "amount_paid_INR": 377.2,
-    "notes": "UPI; PVR Nexus Koramangala"
+    "notes": "UPI; PVR Nexus Koramangala",
+    "imdb_url": "https://www.imdb.com/title/tt20215234/",
+    "poster": "/posters/conclave.jpg"
   },
   {
     "title": "UI (2024)",
@@ -350,7 +402,9 @@
     "booking_id": "WW6MFFN",
     "tickets": 1,
     "amount_paid_INR": 235.4,
-    "notes": "UPI; Gopalan Cinemas Bannerghatta Road"
+    "notes": "UPI; Gopalan Cinemas Bannerghatta Road",
+    "imdb_url": "https://www.imdb.com/title/tt7057496/",
+    "poster": "/posters/ui-2024.jpg"
   },
   {
     "title": "Pushpa 2: The Rule",
@@ -363,7 +417,9 @@
     "booking_id": "TSAQBSR",
     "tickets": 1,
     "amount_paid_INR": 950.3,
-    "notes": "UPI; PVR Vega City Bannerghatta Road"
+    "notes": "UPI; PVR Vega City Bannerghatta Road",
+    "imdb_url": "https://www.imdb.com/title/tt16539454/",
+    "poster": "/posters/pushpa-2-the-rule.jpg"
   },
   {
     "title": "The Wild Robot",
@@ -376,7 +432,9 @@
     "booking_id": "T8AEHGW",
     "tickets": 1,
     "amount_paid_INR": 596.7,
-    "notes": "UPI; PVR Vega City Bannerghatta Road"
+    "notes": "UPI; PVR Vega City Bannerghatta Road",
+    "imdb_url": "https://www.imdb.com/title/tt29623480/",
+    "poster": "/posters/the-wild-robot.jpg"
   },
   {
     "title": "Gladiator II",
@@ -389,7 +447,9 @@
     "booking_id": "TEARAHU",
     "tickets": 1,
     "amount_paid_INR": 179.5,
-    "notes": "UPI; PVR Vega City Bannerghatta Road"
+    "notes": "UPI; PVR Vega City Bannerghatta Road",
+    "imdb_url": "https://www.imdb.com/title/tt9218128/",
+    "poster": "/posters/gladiator-ii.jpg"
   },
   {
     "title": "Smile 2",
@@ -402,7 +462,9 @@
     "booking_id": "TCAJH2N",
     "tickets": 1,
     "amount_paid_INR": 265.4,
-    "notes": "UPI; PVR Nexus Koramangala"
+    "notes": "UPI; PVR Nexus Koramangala",
+    "imdb_url": "https://www.imdb.com/title/tt29268110/",
+    "poster": "/posters/smile-2.jpg"
   },
   {
     "title": "Jigra",
@@ -415,7 +477,9 @@
     "booking_id": "TLAFGJN",
     "tickets": 1,
     "amount_paid_INR": 275.4,
-    "notes": "UPI; PVR Nexus Koramangala"
+    "notes": "UPI; PVR Nexus Koramangala",
+    "imdb_url": "https://www.imdb.com/title/tt26733317/",
+    "poster": "/posters/jigra.jpg"
   },
   {
     "title": "Alien: Romulus",
@@ -428,7 +492,9 @@
     "booking_id": "TSA3HQD",
     "tickets": 1,
     "amount_paid_INR": 444.28,
-    "notes": "UPI; PVR Vega City Bannerghatta Road"
+    "notes": "UPI; PVR Vega City Bannerghatta Road",
+    "imdb_url": "https://www.imdb.com/title/tt18412256/",
+    "poster": "/posters/alien-romulus.jpg"
   },
   {
     "title": "The Buckingham Murders",
@@ -441,7 +507,9 @@
     "booking_id": "WSNW7ZJ",
     "tickets": 1,
     "amount_paid_INR": 199.5,
-    "notes": "Cinepolis Lulu Mall"
+    "notes": "Cinepolis Lulu Mall",
+    "imdb_url": "https://www.imdb.com/title/tt15245240/",
+    "poster": "/posters/the-buckingham-murders.jpg"
   },
   {
     "title": "Deadpool & Wolverine",
@@ -454,7 +522,9 @@
     "booking_id": "TFAGCS5",
     "tickets": 1,
     "amount_paid_INR": 706.7,
-    "notes": "UPI; PVR Vega City Bannerghatta Road"
+    "notes": "UPI; PVR Vega City Bannerghatta Road",
+    "imdb_url": "https://www.imdb.com/title/tt6263850/",
+    "poster": "/posters/deadpool-wolverine.jpg"
   },
   {
     "title": "Bad Boys: Ride or Die",
@@ -467,7 +537,9 @@
     "booking_id": "TLAHAW4",
     "tickets": 1,
     "amount_paid_INR": 322.48,
-    "notes": "PVR Superplex Forum Mall Kanakapura Road"
+    "notes": "PVR Superplex Forum Mall Kanakapura Road",
+    "imdb_url": "https://www.imdb.com/title/tt4919268/",
+    "poster": "/posters/bad-boys-ride-or-die.jpg"
   },
   {
     "title": "Challengers",
@@ -480,7 +552,9 @@
     "booking_id": "T8AAE9X",
     "tickets": 1,
     "amount_paid_INR": 302.48,
-    "notes": "UPI; PVR Nexus Koramangala"
+    "notes": "UPI; PVR Nexus Koramangala",
+    "imdb_url": "https://www.imdb.com/title/tt16426418/",
+    "poster": "/posters/challengers.jpg"
   },
   {
     "title": "Dune: Part Two",
@@ -493,7 +567,9 @@
     "booking_id": "TPAYE2B",
     "tickets": 2,
     "amount_paid_INR": 716.4,
-    "notes": "UPI; PVR Vega City Bannerghatta Road; includes BookASmile donation"
+    "notes": "UPI; PVR Vega City Bannerghatta Road; includes BookASmile donation",
+    "imdb_url": "https://www.imdb.com/title/tt15239678/",
+    "poster": "/posters/dune-part-two.jpg"
   },
   {
     "title": "Dune: Part Two",
@@ -506,7 +582,9 @@
     "booking_id": "WNZNKX7",
     "tickets": 1,
     "amount_paid_INR": 323.48,
-    "notes": "PVR Vega City Bannerghatta Road; includes BookASmile donation"
+    "notes": "PVR Vega City Bannerghatta Road; includes BookASmile donation",
+    "imdb_url": "https://www.imdb.com/title/tt15239678/",
+    "poster": "/posters/dune-part-two.jpg"
   },
   {
     "title": "The Nun II",
@@ -519,7 +597,9 @@
     "booking_id": "WQDQ2ZN",
     "tickets": 2,
     "amount_paid_INR": 1029.44,
-    "notes": "PVR 4DX Orion Mall; includes BookASmile donation"
+    "notes": "PVR 4DX Orion Mall; includes BookASmile donation",
+    "imdb_url": "https://www.imdb.com/title/tt10160976/",
+    "poster": "/posters/the-nun-ii.jpg"
   },
   {
     "title": "Oppenheimer",
@@ -532,6 +612,8 @@
     "booking_id": "WNKTSMW",
     "tickets": 2,
     "amount_paid_INR": 1329.44,
-    "notes": "UPI; PVR Vega City Bannerghatta Road; includes BookASmile donation"
+    "notes": "UPI; PVR Vega City Bannerghatta Road; includes BookASmile donation",
+    "imdb_url": "https://www.imdb.com/title/tt15398776/",
+    "poster": "/posters/oppenheimer.jpg"
   }
 ]
