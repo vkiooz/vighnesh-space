@@ -3,7 +3,6 @@
 import { useState } from "react"
 import { Navigation } from "@/components/navigation"
 import { movies, getMoviesByYear, getYears, getFormats, getUniqueMovieCount, type Movie } from "@/lib/movies"
-import { Film, MapPin, Calendar, Ticket } from "lucide-react"
 
 export default function MoviesPage() {
   const [filterYear, setFilterYear] = useState<string>("all")
@@ -131,20 +130,6 @@ function MovieCard({ movie }: { movie: Movie }) {
           <h3 className="text-sm font-medium leading-snug">{movie.title}</h3>
           <span className="text-xs px-1.5 py-0.5 rounded bg-muted text-muted-foreground flex-shrink-0">
             {movie.format}
-          </span>
-        </div>
-        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1 text-xs text-muted-foreground">
-          <span className="inline-flex items-center gap-1">
-            <MapPin className="w-3 h-3" />
-            {movie.venue}
-          </span>
-          <span className="inline-flex items-center gap-1">
-            <Calendar className="w-3 h-3" />
-            {movie.time}
-          </span>
-          <span className="inline-flex items-center gap-1">
-            <Film className="w-3 h-3" />
-            {movie.screen}
           </span>
         </div>
         {movie.note && (
