@@ -10,6 +10,7 @@ const navItems = [
   { href: "/writings", label: "writings" },
   { href: "/gallery", label: "gallery" },
   { href: "/quotes", label: "quotes" },
+  { href: "/movies", label: "movies" },
 ]
 
 export function Navigation() {
