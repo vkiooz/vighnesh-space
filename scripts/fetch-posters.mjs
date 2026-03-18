@@ -31,22 +31,15 @@ function slugify(title) {
   return title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-+$/, "")
 }
 
-async function fetchEnglishPoster(imdbId) {
-  // Find TMDb page via IMDb ID redirect
-  const findRes = await fetch(
-    `https://www.themoviedb.org/redirect?external_source=imdb_id&external_id=${imdbId}`,
-    { headers: HEADERS, redirect: "follow" }
-  )
-  const url = findRes.url
-
+async function fetchPosterFromTmdbPage(pageUrl) {
   // Try English posters page first
-  const postersRes = await fetch(url + "/images/posters?language=en", { headers: HEADERS })
+  const postersRes = await fetch(pageUrl + "/images/posters?language=en", { headers: HEADERS })
   let html = await postersRes.text()
   let match = html.match(/\/t\/p\/w300_and_h450_face(\/[a-zA-Z0-9]+\.jpg)/)
 
   // Fallback to main page
   if (!match) {
-    const mainRes = await fetch(url + "?language=en-US", { headers: HEADERS })
+    const mainRes = await fetch(pageUrl + "?language=en-US", { headers: HEADERS })
     html = await mainRes.text()
     match =
       html.match(/\/t\/p\/w300_and_h450_face(\/[a-zA-Z0-9]+\.jpg)/) ||
@@ -55,6 +48,15 @@ async function fetchEnglishPoster(imdbId) {
 
   if (!match) return null
   return `https://image.tmdb.org/t/p/w500${match[1]}`
+}
+
+async function fetchEnglishPoster(imdbId) {
+  // Find TMDb page via IMDb ID redirect
+  const findRes = await fetch(
+    `https://www.themoviedb.org/redirect?external_source=imdb_id&external_id=${imdbId}`,
+    { headers: HEADERS, redirect: "follow" }
+  )
+  return fetchPosterFromTmdbPage(findRes.url)
 }
 
 async function downloadImage(url, filepath) {

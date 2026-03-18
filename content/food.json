@@ -1,0 +1,2894 @@
+[
+  {
+    "order_id": "232383655601408",
+    "platform": "swiggy",
+    "date": "2026-03-13",
+    "restaurant": "IDC Kitchen",
+    "items": [
+      {
+        "name": "Masala Dosa Ghee",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli 2pcs",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 303,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "231953198138649",
+    "platform": "swiggy",
+    "date": "2026-03-08",
+    "restaurant": "Domino's Pizza",
+    "items": [
+      {
+        "name": "Margherita Cheese Burst",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Tomato Ketchup",
+        "quantity": 8,
+        "price": null
+      },
+      {
+        "name": "Mini Coke 255ml",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 195,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "231868499221472",
+    "platform": "swiggy",
+    "date": "2026-03-07",
+    "restaurant": "IDC Kitchen",
+    "items": [
+      {
+        "name": "Set Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 354,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "230559884192837",
+    "platform": "swiggy",
+    "date": "2026-02-20",
+    "restaurant": "Domino's Pizza",
+    "items": [
+      {
+        "name": "Margherita Cheese Burst",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Garlic Breadsticks",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Tomato Ketchup",
+        "quantity": 4,
+        "price": null
+      },
+      {
+        "name": "Cheesy Dip",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Mini Coke",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 424,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "229950782748942",
+    "platform": "swiggy",
+    "date": "2026-02-13",
+    "restaurant": "Theobroma",
+    "items": [
+      {
+        "name": "Eggless Rich Chocolate Pastry [1 Piece]",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Eggless Dutch Truffle Pastry [1 Piece]",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Choco-Vanilla (item truncated)",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 360,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "229361031527793",
+    "platform": "swiggy",
+    "date": "2026-02-06",
+    "restaurant": "IDC Kitchen",
+    "items": [
+      {
+        "name": "Idli 2pcs",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Set Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 294,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "228934181293500",
+    "platform": "swiggy",
+    "date": "2026-02-01",
+    "restaurant": "Domino's Pizza",
+    "items": [
+      {
+        "name": "Tomato Ketchup",
+        "quantity": 6,
+        "price": null
+      },
+      {
+        "name": "Paneer & Capsicum Pizza Mania",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Coca Cola 475ml",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Golden Corn",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 316,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "228847660650430",
+    "platform": "swiggy",
+    "date": "2026-01-31",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 2,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 247,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "228240210844634",
+    "platform": "swiggy",
+    "date": "2026-01-24",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli (2 Pcs)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 289,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "225821753576097",
+    "platform": "swiggy",
+    "date": "2025-12-27",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Idli (2 Pcs)",
+        "quantity": 2,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 165,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "225303393785839",
+    "platform": "swiggy",
+    "date": "2025-12-21",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Idli (2 Pcs)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 289,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "224008177590985",
+    "platform": "swiggy",
+    "date": "2025-12-06",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Idli (2 Pcs)",
+        "quantity": 2,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 166,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "222280844331609",
+    "platform": "swiggy",
+    "date": "2025-11-16",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 211,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "220984112409860",
+    "platform": "swiggy",
+    "date": "2025-11-01",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 210,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "219147378983404",
+    "platform": "swiggy",
+    "date": "2025-10-11",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Vada (2 Pc)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 134,
+    "delivery_address": "Hsr Layout"
+  },
+  {
+    "order_id": "217958287528050",
+    "platform": "swiggy",
+    "date": "2025-09-27",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 210,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "217859065958309",
+    "platform": "swiggy",
+    "date": "2025-09-26",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 210,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "216224894369177",
+    "platform": "swiggy",
+    "date": "2025-09-07",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 210,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "213982336865986",
+    "platform": "swiggy",
+    "date": "2025-08-12",
+    "restaurant": "Arogya Ahaara",
+    "items": [
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [3 Pieces]",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Uddina Vada [2 Pieces]",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 249,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "213728382764712",
+    "platform": "swiggy",
+    "date": "2025-08-09",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 275,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "212345936771017",
+    "platform": "swiggy",
+    "date": "2025-07-24",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 253,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "212073183512738",
+    "platform": "swiggy",
+    "date": "2025-07-21",
+    "restaurant": "Domino's Pizza",
+    "items": [
+      {
+        "name": "Choco Lava Cake",
+        "quantity": 2,
+        "price": null
+      },
+      {
+        "name": "Farmhouse Cheese Burst",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Paneer Tikka Stuffed Garlic Bread",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 726,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "211974085309650",
+    "platform": "swiggy",
+    "date": "2025-07-20",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Sambar Rice",
+        "quantity": 2,
+        "price": null
+      },
+      {
+        "name": "Bisibele Bath",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 230,
+    "delivery_address": "Hsr Layout"
+  },
+  {
+    "order_id": "211319526878156",
+    "platform": "swiggy",
+    "date": "2025-07-13",
+    "restaurant": "Big Bowl",
+    "items": [
+      {
+        "name": "Pindi Chole Rice Bowl",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 492,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "210790970413594",
+    "platform": "swiggy",
+    "date": "2025-07-06",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Veg Fried Rice",
+        "quantity": 2,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 527,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "210685627527987",
+    "platform": "swiggy",
+    "date": "2025-07-05",
+    "restaurant": "Amma's Pastries",
+    "items": [
+      {
+        "name": "Eggless Black Forest",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Eggless Chocolate Truffle",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 252,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "210678891980763",
+    "platform": "swiggy",
+    "date": "2025-07-05",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Mini Meal",
+        "quantity": 2,
+        "price": null
+      },
+      {
+        "name": "Bisibele Bath",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 322,
+    "delivery_address": "Hsr Layout"
+  },
+  {
+    "order_id": "210070780447348",
+    "platform": "swiggy",
+    "date": "2025-06-28",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Vada (2 Pc)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 249,
+    "delivery_address": "Hsr Layout"
+  },
+  {
+    "order_id": "209556953423414",
+    "platform": "swiggy",
+    "date": "2025-06-22",
+    "restaurant": "IDC Kitchen",
+    "items": [
+      {
+        "name": "Set Dosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Ghee Masala Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 407,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "209556437908213",
+    "platform": "swiggy",
+    "date": "2025-06-22",
+    "restaurant": "O4H - Order For Health",
+    "items": [
+      {
+        "name": "Basil Pesto Pasta Chicken Salad [Immunity Booster]",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 304,
+    "delivery_address": "BTM"
+  },
+  {
+    "order_id": "208880300024083",
+    "platform": "swiggy",
+    "date": "2025-06-14",
+    "restaurant": "California Burrito",
+    "items": [
+      {
+        "name": "Barbeque Paneer Rice Bowl (Regular)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Grilled Barbeque Chicken Rice Bowl (Regular)",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 779,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "208365276094562",
+    "platform": "swiggy",
+    "date": "2025-06-08",
+    "restaurant": "IDC Kitchen",
+    "items": [
+      {
+        "name": "Set Dosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Ghee Masala Dosa",
+        "quantity": 2,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 607,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "208343132221336",
+    "platform": "swiggy",
+    "date": "2025-06-08",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Sambar Rice",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 169,
+    "delivery_address": "Hsr Layout"
+  },
+  {
+    "order_id": "208020139533601",
+    "platform": "swiggy",
+    "date": "2025-06-04",
+    "restaurant": "IDC Kitchen",
+    "items": [
+      {
+        "name": "Udina Vada (2 Pcs)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Set Dosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Ghee Masala Dosa",
+        "quantity": 2,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 678,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "207674453790749",
+    "platform": "swiggy",
+    "date": "2025-05-31",
+    "restaurant": "California Burrito",
+    "items": [
+      {
+        "name": "Crispy Peri Peri Chicken Rice Bowl (Regular)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Coke Zero Can",
+        "quantity": 2,
+        "price": null
+      },
+      {
+        "name": "Barbeque Paneer Rice Bowl (Regular)",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 913,
+    "delivery_address": "HSR Layout"
+  },
+  {
+    "order_id": "202840333310785",
+    "platform": "swiggy",
+    "date": "2025-04-05",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Vada (2 Pc)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 208,
+    "delivery_address": "Hsr Layout"
+  },
+  {
+    "order_id": "6275113979",
+    "platform": "zomato",
+    "date": "2024-10-16",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "2 Aloo Paratha",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 168.59,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5893866932",
+    "platform": "zomato",
+    "date": "2024-06-08",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 174.15,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5880072080",
+    "platform": "zomato",
+    "date": "2024-06-02",
+    "restaurant": "Burger King",
+    "items": [
+      {
+        "name": "Veg Whopper",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 323.3,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5868237728",
+    "platform": "zomato",
+    "date": "2024-06-01",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "2 Aloo Paratha",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 194.5,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5845933744",
+    "platform": "zomato",
+    "date": "2024-05-22",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 194.5,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5784468109",
+    "platform": "zomato",
+    "date": "2024-05-03",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 207.75,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5780348325",
+    "platform": "zomato",
+    "date": "2024-04-28",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 207.75,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5771863174",
+    "platform": "zomato",
+    "date": "2024-04-27",
+    "restaurant": "Southinn",
+    "items": [
+      {
+        "name": "Paper Roast Masala Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 140.15,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5767491825",
+    "platform": "zomato",
+    "date": "2024-04-24",
+    "restaurant": "Southinn",
+    "items": [
+      {
+        "name": "Rava Dosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 204.4,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5759903160",
+    "platform": "zomato",
+    "date": "2024-04-21",
+    "restaurant": "Amma's Pastries",
+    "items": [
+      {
+        "name": "Veg Samosa",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Red velvet cup cake Eggless Mini",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Veg Puff",
+        "quantity": 2,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 228.67,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5737885976",
+    "platform": "zomato",
+    "date": "2024-04-18",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Sweet Lassi (300ML)",
+        "quantity": 2,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 174.45,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5740367232",
+    "platform": "zomato",
+    "date": "2024-04-16",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 206.57,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5691494276",
+    "platform": "zomato",
+    "date": "2024-03-27",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 206.57,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5674039550",
+    "platform": "zomato",
+    "date": "2024-03-21",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 228.77,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5650111690",
+    "platform": "zomato",
+    "date": "2024-03-13",
+    "restaurant": "Amma's Pastries",
+    "items": [
+      {
+        "name": "Eggless Chocolate Cheese Mousse",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Red velvet cup cake Eggless Mini",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Veg Puff",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Veg Samosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 294.47,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5621881283",
+    "platform": "zomato",
+    "date": "2024-03-02",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 231.07,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5525996296",
+    "platform": "zomato",
+    "date": "2024-02-01",
+    "restaurant": "Glen's Bakehouse",
+    "items": [
+      {
+        "name": "Red Velvet Cupcake Big [Pack of 2]",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 228.64,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5544510679",
+    "platform": "zomato",
+    "date": "2024-02-01",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Sweet Lassi (300ML)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 194.41,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5534159644",
+    "platform": "zomato",
+    "date": "2024-01-30",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 202.02,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5532704156",
+    "platform": "zomato",
+    "date": "2024-01-29",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 195.02,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5514658452",
+    "platform": "zomato",
+    "date": "2024-01-20",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Masala Dosa",
+        "quantity": 2,
+        "price": null
+      },
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 202.65,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5509750655",
+    "platform": "zomato",
+    "date": "2024-01-19",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces] with 1 Vada",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 202.02,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5509282197",
+    "platform": "zomato",
+    "date": "2024-01-18",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces]",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 174.42,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5415210227",
+    "platform": "zomato",
+    "date": "2023-12-13",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Maddur Vada [2 Vada]",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces]",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 228.98,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5405427797",
+    "platform": "zomato",
+    "date": "2023-12-10",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 207.19,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5396759992",
+    "platform": "zomato",
+    "date": "2023-12-07",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces]",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 171.31,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5397106699",
+    "platform": "zomato",
+    "date": "2023-12-06",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces]",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 164.31,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5395208577",
+    "platform": "zomato",
+    "date": "2023-12-05",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces]",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 171.31,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5392661228",
+    "platform": "zomato",
+    "date": "2023-12-04",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces]",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 171.31,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5385514893",
+    "platform": "zomato",
+    "date": "2023-12-02",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces]",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 172.31,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5380202215",
+    "platform": "zomato",
+    "date": "2023-11-30",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces]",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 166.31,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5370708569",
+    "platform": "zomato",
+    "date": "2023-11-28",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "Idli [2 Pieces]",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 166.31,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "5375879226",
+    "platform": "zomato",
+    "date": "2023-11-27",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli [2 Pieces]",
+        "quantity": 1,
+        "price": null
+      },
+      {
+        "name": "2 Aloo Paratha with Curd and Pickle",
+        "quantity": 1,
+        "price": null
+      }
+    ],
+    "item_total": null,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 173.31,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "183445094767198",
+    "platform": "swiggy",
+    "date": "2024-08-24",
+    "restaurant": "Arogya Ahaara",
+    "items": [
+      {
+        "name": "Idli [3 Pieces]",
+        "quantity": 1,
+        "price": 65
+      },
+      {
+        "name": "Uddina Vada [2 Pieces]",
+        "quantity": 1,
+        "price": 68
+      },
+      {
+        "name": "Extra Chutney [100 Grams]",
+        "quantity": 1,
+        "price": 20
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": 75
+      },
+      {
+        "name": "Extra Chutney [100 Grams]",
+        "quantity": 1,
+        "price": 20
+      }
+    ],
+    "item_total": 208,
+    "discount": 31.2,
+    "taxes": 10.88,
+    "amount_paid_INR": 207,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "182272697563063",
+    "platform": "swiggy",
+    "date": "2024-08-10",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Combo - 2 Idly 1 Vada",
+        "quantity": 1,
+        "price": 85
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 139
+      }
+    ],
+    "item_total": 224,
+    "discount": 124.99,
+    "taxes": 9.24,
+    "amount_paid_INR": 141,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "181409123336594",
+    "platform": "swiggy",
+    "date": "2024-07-31",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 139
+      },
+      {
+        "name": "Combo - 2 Idly 1 Vada",
+        "quantity": 1,
+        "price": 85
+      }
+    ],
+    "item_total": 224,
+    "discount": 79.99,
+    "taxes": 10.82,
+    "amount_paid_INR": 218,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "178903626981842",
+    "platform": "swiggy",
+    "date": "2024-07-02",
+    "restaurant": "Instamart",
+    "items": [
+      {
+        "name": "Aashirvaad Superior MP Atta",
+        "quantity": 1,
+        "price": 65
+      },
+      {
+        "name": "Coconut",
+        "quantity": 1,
+        "price": 36
+      },
+      {
+        "name": "Green Chilli",
+        "quantity": 1,
+        "price": 21
+      }
+    ],
+    "item_total": 122,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 157,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "178474084918152",
+    "platform": "swiggy",
+    "date": "2024-06-27",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 139
+      },
+      {
+        "name": "Combo - 2 Idly 1 Vada",
+        "quantity": 1,
+        "price": 85
+      }
+    ],
+    "item_total": 224,
+    "discount": 99.99,
+    "taxes": 10.12,
+    "amount_paid_INR": 167,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "178127921647215",
+    "platform": "swiggy",
+    "date": "2024-06-23",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Combo - 2 Idly 1 Vada",
+        "quantity": 1,
+        "price": 85
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 139
+      }
+    ],
+    "item_total": 224,
+    "discount": 124.99,
+    "taxes": 9.06,
+    "amount_paid_INR": 149,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "177055617723280",
+    "platform": "swiggy",
+    "date": "2024-06-11",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": 85
+      },
+      {
+        "name": "Kesari Bath",
+        "quantity": 1,
+        "price": 35
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": 65
+      }
+    ],
+    "item_total": 185,
+    "discount": 92.5,
+    "taxes": 8.3,
+    "amount_paid_INR": 171,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "175533097812250",
+    "platform": "swiggy",
+    "date": "2024-05-24",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": 55
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 139
+      }
+    ],
+    "item_total": 194,
+    "discount": 77.6,
+    "taxes": 8.95,
+    "amount_paid_INR": 195,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "174990056115033",
+    "platform": "swiggy",
+    "date": "2024-05-18",
+    "restaurant": "Burger King",
+    "items": [
+      {
+        "name": "Veg Whopper Combo",
+        "quantity": 1,
+        "price": 328
+      }
+    ],
+    "item_total": 328,
+    "discount": 120,
+    "taxes": 14.26,
+    "amount_paid_INR": 301,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "172509335223913",
+    "platform": "swiggy",
+    "date": "2024-04-19",
+    "restaurant": "Instamart",
+    "items": [
+      {
+        "name": "Bingo Original Style Chilli Sprinkled Potato Chips",
+        "quantity": 1,
+        "price": 20
+      },
+      {
+        "name": "Nandini Curd",
+        "quantity": 1,
+        "price": 26
+      },
+      {
+        "name": "Nandini Shubam Milk",
+        "quantity": 1,
+        "price": 25
+      }
+    ],
+    "item_total": 71,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 121,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "171894727915488",
+    "platform": "swiggy",
+    "date": "2024-04-12",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 139
+      },
+      {
+        "name": "Combo - 2 Idly 1 Vada",
+        "quantity": 1,
+        "price": 85
+      }
+    ],
+    "item_total": 224,
+    "discount": 67.2,
+    "taxes": 11.24,
+    "amount_paid_INR": 229,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "171822841113433",
+    "platform": "swiggy",
+    "date": "2024-04-11",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 2,
+        "price": 59
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": 65
+      }
+    ],
+    "item_total": 183,
+    "discount": 91.5,
+    "taxes": 8.04,
+    "amount_paid_INR": 165,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "171472898193833",
+    "platform": "swiggy",
+    "date": "2024-04-07",
+    "restaurant": "Instamart",
+    "items": [
+      {
+        "name": "Nandini Curd",
+        "quantity": 1,
+        "price": 26
+      },
+      {
+        "name": "Nandini Pasteurised Toned Milk",
+        "quantity": 1,
+        "price": 22
+      },
+      {
+        "name": "Yellaki Banana",
+        "quantity": 1,
+        "price": 51
+      },
+      {
+        "name": "Saffola Active Honey",
+        "quantity": 1,
+        "price": 74
+      },
+      {
+        "name": "Yogabar 100% Rolled Oats",
+        "quantity": 1,
+        "price": 245
+      },
+      {
+        "name": "Bingo Original Style Chilli Sprinkled Potato Chips",
+        "quantity": 1,
+        "price": 20
+      }
+    ],
+    "item_total": 438,
+    "discount": 16,
+    "taxes": null,
+    "amount_paid_INR": 443,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "171126390215725",
+    "platform": "swiggy",
+    "date": "2024-04-03",
+    "restaurant": "Instamart",
+    "items": [
+      {
+        "name": "Nandini Curd",
+        "quantity": 1,
+        "price": 26
+      },
+      {
+        "name": "Nandini Shubam Milk",
+        "quantity": 1,
+        "price": 25
+      },
+      {
+        "name": "Bingo Original Style Chilli Sprinkled Potato Chips",
+        "quantity": 1,
+        "price": 20
+      }
+    ],
+    "item_total": 71,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 120.9,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "170846270348749",
+    "platform": "swiggy",
+    "date": "2024-03-31",
+    "restaurant": "South Inn",
+    "items": [
+      {
+        "name": "Idli (2 Pcs)",
+        "quantity": 1,
+        "price": 40
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": 90
+      },
+      {
+        "name": "Extra chutney",
+        "quantity": 1,
+        "price": 20
+      }
+    ],
+    "item_total": 130,
+    "discount": null,
+    "taxes": 7.22,
+    "amount_paid_INR": 203,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "170780981491154",
+    "platform": "swiggy",
+    "date": "2024-03-30",
+    "restaurant": "Instamart",
+    "items": [
+      {
+        "name": "Nandini Curd",
+        "quantity": 1,
+        "price": 26
+      },
+      {
+        "name": "Nandini Shubam Milk",
+        "quantity": 1,
+        "price": 25
+      },
+      {
+        "name": "Bingo Original Style Chilli Sprinkled Potato Chips",
+        "quantity": 1,
+        "price": 20
+      },
+      {
+        "name": "Cadbury Bournville Rich Cocoa 50% Dark Chocolate Bar",
+        "quantity": 1,
+        "price": 50
+      }
+    ],
+    "item_total": 121,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 155,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "170344205591699",
+    "platform": "swiggy",
+    "date": "2024-03-25",
+    "restaurant": "Instamart",
+    "items": [
+      {
+        "name": "Nandini Curd",
+        "quantity": 1,
+        "price": 26
+      },
+      {
+        "name": "Cadbury Chocobakes Choc Layered Cake",
+        "quantity": 1,
+        "price": 10
+      },
+      {
+        "name": "Nandini Shubam Milk",
+        "quantity": 1,
+        "price": 25
+      },
+      {
+        "name": "DesiDiya Pixel LED Lights Warm White",
+        "quantity": 1,
+        "price": 120
+      },
+      {
+        "name": "Bingo Original Style Chilli Sprinkled Potato Chips",
+        "quantity": 1,
+        "price": 20
+      },
+      {
+        "name": "Cadbury Bournville Rich Cocoa 50% Dark Chocolate Bar",
+        "quantity": 1,
+        "price": 50
+      }
+    ],
+    "item_total": 251,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 271,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "170176219581392",
+    "platform": "swiggy",
+    "date": "2024-03-23",
+    "restaurant": "Instamart",
+    "items": [
+      {
+        "name": "Nandini Shubam Milk",
+        "quantity": 1,
+        "price": 24
+      },
+      {
+        "name": "Nandini Curd",
+        "quantity": 1,
+        "price": 26
+      },
+      {
+        "name": "Bingo Original Style Chilli Sprinkled Potato Chips",
+        "quantity": 1,
+        "price": 20
+      },
+      {
+        "name": "Cadbury Chocobakes Choc Layered Cake",
+        "quantity": 2,
+        "price": 10
+      }
+    ],
+    "item_total": 90,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 139,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "169913864293745",
+    "platform": "swiggy",
+    "date": "2024-03-20",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Combo - 2 Idly 1 Vada",
+        "quantity": 1,
+        "price": 85
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 139
+      }
+    ],
+    "item_total": 224,
+    "discount": 79.99,
+    "taxes": 10.86,
+    "amount_paid_INR": 186,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "169826085953356",
+    "platform": "swiggy",
+    "date": "2024-03-19",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Combo - 2 Idly 1 Vada",
+        "quantity": 1,
+        "price": 85
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 139
+      }
+    ],
+    "item_total": 224,
+    "discount": 79.99,
+    "taxes": 10.86,
+    "amount_paid_INR": 186,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "169311587860368",
+    "platform": "swiggy",
+    "date": "2024-03-13",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 139
+      },
+      {
+        "name": "Combo - 2 Idly 1 Vada",
+        "quantity": 1,
+        "price": 85
+      }
+    ],
+    "item_total": 224,
+    "discount": 79.99,
+    "taxes": 10.86,
+    "amount_paid_INR": 186,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "168450988561536",
+    "platform": "swiggy",
+    "date": "2024-03-03",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Idli (2 Pcs) + Vada (1 Pc)",
+        "quantity": 1,
+        "price": 85
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": 65
+      },
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 1,
+        "price": 59
+      }
+    ],
+    "item_total": 209,
+    "discount": 124.98,
+    "taxes": 9.06,
+    "amount_paid_INR": 164,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "166025267038173",
+    "platform": "swiggy",
+    "date": "2024-02-04",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Combo - 2 Idly 1 Vada",
+        "quantity": 1,
+        "price": 79
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 129
+      }
+    ],
+    "item_total": 208,
+    "discount": 79.99,
+    "taxes": 9.29,
+    "amount_paid_INR": 197,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "163695967835391",
+    "platform": "swiggy",
+    "date": "2024-01-08",
+    "restaurant": "Big Bowl",
+    "items": [
+      {
+        "name": "Pindi Chole Rice Bowl",
+        "quantity": 1,
+        "price": 259
+      }
+    ],
+    "item_total": 259,
+    "discount": 90,
+    "taxes": 10.16,
+    "amount_paid_INR": 205,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "163611384701196",
+    "platform": "swiggy",
+    "date": "2024-01-07",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Idli + 2 Vada",
+        "quantity": 1,
+        "price": 99
+      },
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": 59
+      },
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": 49
+      }
+    ],
+    "item_total": 207,
+    "discount": 124.98,
+    "taxes": 7.61,
+    "amount_paid_INR": 121,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "163525746681290",
+    "platform": "swiggy",
+    "date": "2024-01-06",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": 49
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 129
+      }
+    ],
+    "item_total": 178,
+    "discount": 77.4,
+    "taxes": 7.7,
+    "amount_paid_INR": 131,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "163519028315279",
+    "platform": "swiggy",
+    "date": "2024-01-06",
+    "restaurant": "Glen's Bakehouse",
+    "items": [
+      {
+        "name": "Red Velvet Cup Cake (big) (2 Pcs)",
+        "quantity": 1,
+        "price": 214
+      }
+    ],
+    "item_total": 213.71,
+    "discount": null,
+    "taxes": 11.97,
+    "amount_paid_INR": 244,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "163497932516464",
+    "platform": "swiggy",
+    "date": "2024-01-06",
+    "restaurant": "Burger King",
+    "items": [
+      {
+        "name": "Veg Whopper",
+        "quantity": 1,
+        "price": 363
+      },
+      {
+        "name": "King Fries + Medium Pepsi (23% off)",
+        "quantity": 1,
+        "price": 159
+      },
+      {
+        "name": "Single Cheese Slice",
+        "quantity": 1,
+        "price": 25
+      },
+      {
+        "name": "Fiery Hell Dip",
+        "quantity": 1,
+        "price": 24
+      }
+    ],
+    "item_total": 363,
+    "discount": 120,
+    "taxes": 15.65,
+    "amount_paid_INR": 297,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "163350161923509",
+    "platform": "swiggy",
+    "date": "2024-01-04",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 129
+      },
+      {
+        "name": "2 Idli + 2 Vada",
+        "quantity": 1,
+        "price": 99
+      }
+    ],
+    "item_total": 228,
+    "discount": 50,
+    "taxes": 10.64,
+    "amount_paid_INR": 216,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "163092690269567",
+    "platform": "swiggy",
+    "date": "2024-01-01",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": 59
+      },
+      {
+        "name": "2 Idli + 2 Vada",
+        "quantity": 1,
+        "price": 99
+      }
+    ],
+    "item_total": 158,
+    "discount": null,
+    "taxes": 9.48,
+    "amount_paid_INR": 191,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "163005753233300",
+    "platform": "swiggy",
+    "date": "2023-12-31",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": 49
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 129
+      }
+    ],
+    "item_total": 178,
+    "discount": null,
+    "taxes": 10.59,
+    "amount_paid_INR": 212,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "162984126367909",
+    "platform": "swiggy",
+    "date": "2023-12-31",
+    "restaurant": "Burger King",
+    "items": [
+      {
+        "name": "Veg Whopper",
+        "quantity": 1,
+        "price": 299
+      },
+      {
+        "name": "Single Cheese Slice",
+        "quantity": 1,
+        "price": 25
+      },
+      {
+        "name": "Medium Pepsi Black",
+        "quantity": 1,
+        "price": 95
+      },
+      {
+        "name": "Veggie Strips (5 Pcs)",
+        "quantity": 1,
+        "price": 83
+      },
+      {
+        "name": "Fiery Hell Dip",
+        "quantity": 1,
+        "price": 24
+      }
+    ],
+    "item_total": 381.81,
+    "discount": 119.99,
+    "taxes": 16.77,
+    "amount_paid_INR": 318,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "162914250847661",
+    "platform": "swiggy",
+    "date": "2023-12-30",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 2,
+        "price": 129
+      }
+    ],
+    "item_total": 258,
+    "discount": 125,
+    "taxes": 9.82,
+    "amount_paid_INR": 171,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "162831912288680",
+    "platform": "swiggy",
+    "date": "2023-12-29",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 129
+      },
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": 49
+      },
+      {
+        "name": "Gulab Jamun (2 Pc)",
+        "quantity": 1,
+        "price": 49
+      }
+    ],
+    "item_total": 227,
+    "discount": 74.98,
+    "taxes": 10.53,
+    "amount_paid_INR": 191,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "162569439989641",
+    "platform": "swiggy",
+    "date": "2023-12-26",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "2 Idli + 2 Vada",
+        "quantity": 1,
+        "price": 99
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 129
+      }
+    ],
+    "item_total": 228,
+    "discount": 99,
+    "taxes": 9.18,
+    "amount_paid_INR": 165,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "162487586027768",
+    "platform": "swiggy",
+    "date": "2023-12-25",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Vada (2 Pc)",
+        "quantity": 1,
+        "price": 55
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 129
+      },
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": 49
+      }
+    ],
+    "item_total": 233,
+    "discount": 74.99,
+    "taxes": 10.95,
+    "amount_paid_INR": 200,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "162405287556134",
+    "platform": "swiggy",
+    "date": "2023-12-24",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": 59
+      },
+      {
+        "name": "Idli (2 Pcs)",
+        "quantity": 1,
+        "price": 49
+      }
+    ],
+    "item_total": 108,
+    "discount": null,
+    "taxes": 6.75,
+    "amount_paid_INR": 177,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "162316272581425",
+    "platform": "swiggy",
+    "date": "2023-12-23",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 129
+      },
+      {
+        "name": "Vada (2 Pc)",
+        "quantity": 1,
+        "price": 55
+      },
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": 49
+      }
+    ],
+    "item_total": 233,
+    "discount": 79.99,
+    "taxes": 10.77,
+    "amount_paid_INR": 194,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "161877604810725",
+    "platform": "swiggy",
+    "date": "2023-12-18",
+    "restaurant": "Instamart",
+    "items": [
+      {
+        "name": "Heritage Pouch Curd",
+        "quantity": 1,
+        "price": 31
+      },
+      {
+        "name": "Yogabar Chocolate Chunk Energy Protein Bars",
+        "quantity": 1,
+        "price": 36
+      },
+      {
+        "name": "Cadbury Chocobakes Choc Layered Cake",
+        "quantity": 1,
+        "price": 10
+      }
+    ],
+    "item_total": 77,
+    "discount": null,
+    "taxes": null,
+    "amount_paid_INR": 126,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "161800054318218",
+    "platform": "swiggy",
+    "date": "2023-12-17",
+    "restaurant": "Asha Tiffins",
+    "items": [
+      {
+        "name": "Masala Dosa",
+        "quantity": 1,
+        "price": 59
+      },
+      {
+        "name": "Idli (2 Pcs)",
+        "quantity": 1,
+        "price": 49
+      },
+      {
+        "name": "Sweet Lassi (300ml)",
+        "quantity": 1,
+        "price": 55
+      }
+    ],
+    "item_total": 163,
+    "discount": null,
+    "taxes": 9.91,
+    "amount_paid_INR": 200,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "161616122826014",
+    "platform": "swiggy",
+    "date": "2023-12-15",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": 49
+      },
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 129
+      },
+      {
+        "name": "Vada (2 Pc)",
+        "quantity": 1,
+        "price": 55
+      }
+    ],
+    "item_total": 233,
+    "discount": 79.99,
+    "taxes": 10.74,
+    "amount_paid_INR": 194,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "161536079057689",
+    "platform": "swiggy",
+    "date": "2023-12-14",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 129
+      },
+      {
+        "name": "Vada (2 Pc)",
+        "quantity": 1,
+        "price": 55
+      },
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": 49
+      }
+    ],
+    "item_total": 233,
+    "discount": 79.99,
+    "taxes": 10.74,
+    "amount_paid_INR": 194,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "161100718727792",
+    "platform": "swiggy",
+    "date": "2023-12-09",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 1,
+        "price": 129
+      },
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": 49
+      },
+      {
+        "name": "Vada (2 Pc)",
+        "quantity": 1,
+        "price": 55
+      }
+    ],
+    "item_total": 233,
+    "discount": 79.99,
+    "taxes": 10.74,
+    "amount_paid_INR": 213,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "159356247126335",
+    "platform": "swiggy",
+    "date": "2023-11-19",
+    "restaurant": "Burger King",
+    "items": [
+      {
+        "name": "Veg Whopper Combo",
+        "quantity": 2,
+        "price": 328
+      },
+      {
+        "name": "Medium Fries",
+        "quantity": 1,
+        "price": 0
+      }
+    ],
+    "item_total": 656,
+    "discount": 120,
+    "taxes": 30.3,
+    "amount_paid_INR": 633,
+    "delivery_address": "HSR Layout, Bengaluru"
+  },
+  {
+    "order_id": "159277188540609",
+    "platform": "swiggy",
+    "date": "2023-11-18",
+    "restaurant": "Namaste",
+    "items": [
+      {
+        "name": "Aloo Paratha (2 Pc) With Curd And Pickle",
+        "quantity": 2,
+        "price": 129
+      },
+      {
+        "name": "Idli (2pc)",
+        "quantity": 1,
+        "price": 49
+      }
+    ],
+    "item_total": 307,
+    "discount": 124.99,
+    "taxes": 12.75,
+    "amount_paid_INR": 257,
+    "delivery_address": "HSR Layout, Bengaluru"
+  }
+]
