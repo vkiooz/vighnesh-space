@@ -1,0 +1,414 @@
+[
+  {
+    "title": "F1: The Movie",
+    "format": "IMAX",
+    "date": "2026-03-15",
+    "time": "04:00pm",
+    "venue": "PVR: Nexus (Formerly Forum), Koramangala",
+    "screen": "AUDI 1 IMAX",
+    "city": "Bengaluru",
+    "booking_id": "TKARF2B"
+  },
+  {
+    "title": "Hoppers",
+    "format": "4DX 3D",
+    "date": "2026-03-08",
+    "time": "06:20pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 07 4DX",
+    "city": "Bengaluru",
+    "booking_id": "TCA3AKA"
+  },
+  {
+    "title": "Good Luck, Have Fun, Don't Die",
+    "format": "2D",
+    "date": "2026-02-28",
+    "time": "04:00pm",
+    "venue": "PVR: Nexus (Formerly Forum), Koramangala",
+    "screen": "AUDI 8",
+    "city": "Bengaluru",
+    "booking_id": "TEAEFKQ"
+  },
+  {
+    "title": "Send Help",
+    "format": "4DX 3D",
+    "date": "2026-02-10",
+    "time": "07:40pm",
+    "venue": "PVR: Superplex Forum Mall, Kanakapura Road",
+    "screen": "AUDI 11 4DX",
+    "city": "Bengaluru",
+    "booking_id": "TDA3FK4"
+  },
+  {
+    "title": "Marty Supreme",
+    "format": "2D",
+    "date": "2026-01-24",
+    "time": "09:00am",
+    "venue": "PVR: Nexus (Formerly Forum), Koramangala",
+    "screen": "AUDI 4",
+    "city": "Bengaluru",
+    "booking_id": "TLAAKNY"
+  },
+  {
+    "title": "Dhurandhar",
+    "format": "2D",
+    "date": "2025-12-21",
+    "time": "02:00pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 04",
+    "city": "Bengaluru",
+    "booking_id": "T8A5JMS"
+  },
+  {
+    "title": "Wicked: For Good",
+    "format": "3D",
+    "date": "2025-11-28",
+    "time": "12:05pm",
+    "venue": "Cinepolis: Lulu Mall, Bengaluru",
+    "screen": "SCREEN 03",
+    "city": "Bengaluru",
+    "booking_id": "WW9RFRX"
+  },
+  {
+    "title": "Now You See Me: Now You Don't",
+    "format": "2D",
+    "date": "2025-11-17",
+    "time": "07:15pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 05",
+    "city": "Bengaluru",
+    "booking_id": "TYAXHZD"
+  },
+  {
+    "title": "Bugonia",
+    "format": "2D",
+    "date": "2025-11-02",
+    "time": "05:20pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 05",
+    "city": "Bengaluru",
+    "booking_id": "TUAADU6"
+  },
+  {
+    "title": "Bugonia",
+    "format": "2D",
+    "date": "2025-11-01",
+    "time": "05:20pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 05",
+    "city": "Bengaluru",
+    "booking_id": "TQA6KM6"
+  },
+  {
+    "title": "Su From So",
+    "format": "2D",
+    "date": "2025-08-15",
+    "time": "09:35am",
+    "venue": "PVR: Orion Mall, Dr Rajkumar Road",
+    "screen": "AUDI 06",
+    "city": "Bengaluru",
+    "booking_id": "TSA6FV6"
+  },
+  {
+    "title": "Weapons",
+    "format": "2D",
+    "date": "2025-08-10",
+    "time": "11:05am",
+    "venue": "PVR: Nexus (Formerly Forum), Koramangala",
+    "screen": "AUDI 6",
+    "city": "Bengaluru",
+    "booking_id": "TAAJEBD"
+  },
+  {
+    "title": "The Fantastic Four: First Steps",
+    "format": "IMAX 3D",
+    "date": "2025-07-29",
+    "time": "05:20pm",
+    "venue": "PVR: Nexus (Formerly Forum), Koramangala",
+    "screen": "AUDI 1 IMAX",
+    "city": "Bengaluru",
+    "booking_id": "TKAKFBA"
+  },
+  {
+    "title": "Jurassic World: Rebirth",
+    "format": "3D",
+    "date": "2025-07-12",
+    "time": "10:30pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 03",
+    "city": "Bengaluru",
+    "booking_id": "TQA5CBF"
+  },
+  {
+    "title": "Superman",
+    "format": "IMAX 3D",
+    "date": "2025-07-12",
+    "time": "08:20am",
+    "venue": "PVR: Nexus (Formerly Forum), Koramangala",
+    "screen": "AUDI 1 IMAX",
+    "city": "Bengaluru",
+    "booking_id": "T8AZK5C"
+  },
+  {
+    "title": "F1: The Movie",
+    "format": "2D",
+    "date": "2025-07-06",
+    "time": "03:55pm",
+    "venue": "Cinepolis: SJR (Central Mall) Arekere, Bannergatta",
+    "screen": "AUDI 6",
+    "city": "Bengaluru",
+    "booking_id": "WQHP79S"
+  },
+  {
+    "title": "From the World of John Wick: Ballerina",
+    "format": "4DX",
+    "date": "2025-06-16",
+    "time": "08:00pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 07 4DX",
+    "city": "Bengaluru",
+    "booking_id": "T6APAA5"
+  },
+  {
+    "title": "Lilo & Stitch",
+    "format": "2D",
+    "date": "2025-06-06",
+    "time": "05:15pm",
+    "venue": "PVR: Directors Cut, Forum Rex Walk Bengaluru",
+    "screen": "AUDI 04",
+    "city": "Bengaluru",
+    "booking_id": "T3AQAGR",
+    "note": "Replacement booking (original TPAMDXM refunded)"
+  },
+  {
+    "title": "Lilo & Stitch",
+    "format": "2D",
+    "date": "2025-06-07",
+    "time": "05:15pm",
+    "venue": "PVR: Directors Cut, Forum Rex Walk Bengaluru",
+    "screen": "AUDI 04",
+    "city": "Bengaluru",
+    "booking_id": "TPAMDXM",
+    "note": "Refunded"
+  },
+  {
+    "title": "Final Destination Bloodlines",
+    "format": "2D",
+    "date": "2025-05-31",
+    "time": "11:50am",
+    "venue": "PVR: Nexus (Formerly Forum), Koramangala",
+    "screen": "AUDI 4",
+    "city": "Bengaluru",
+    "booking_id": "TBA9D7Y"
+  },
+  {
+    "title": "Sinners",
+    "format": "IMAX 2D",
+    "date": "2025-04-26",
+    "time": "01:45pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 02 IMAX",
+    "city": "Bengaluru",
+    "booking_id": "TEABEQC"
+  },
+  {
+    "title": "Presence",
+    "format": "2D",
+    "date": "2025-04-06",
+    "time": "10:50am",
+    "venue": "PVR: Phoenix Marketcity Mall, Whitefield Road",
+    "screen": "AUDI 09",
+    "city": "Bengaluru",
+    "booking_id": "TUAXC5G"
+  },
+  {
+    "title": "Mickey 17",
+    "format": "IMAX 2D",
+    "date": "2025-03-18",
+    "time": "04:10pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 02 IMAX",
+    "city": "Bengaluru",
+    "booking_id": "TRALFAN"
+  },
+  {
+    "title": "A Complete Unknown",
+    "format": "2D",
+    "date": "2025-03-01",
+    "time": "09:50am",
+    "venue": "PVR: Orion Mall, Dr Rajkumar Road",
+    "screen": "AUDI 06",
+    "city": "Bengaluru",
+    "booking_id": "T4ADEKP"
+  },
+  {
+    "title": "Chhaava",
+    "format": "4DX",
+    "date": "2025-02-22",
+    "time": "01:25pm",
+    "venue": "PVR: Nexus (Formerly Forum), Koramangala",
+    "screen": "AUDI 2 4DX",
+    "city": "Bengaluru",
+    "booking_id": "T4AMF5V"
+  },
+  {
+    "title": "Conclave",
+    "format": "2D",
+    "date": "2025-02-09",
+    "time": "03:55pm",
+    "venue": "PVR: Nexus (Formerly Forum), Koramangala",
+    "screen": "AUDI 8",
+    "city": "Bengaluru",
+    "booking_id": "TVALKVK"
+  },
+  {
+    "title": "UI (2024)",
+    "format": "2D",
+    "date": "2025-01-05",
+    "time": "05:20pm",
+    "venue": "Gopalan Cinemas: Bannerghatta Road",
+    "screen": "Screen 1",
+    "city": "Bengaluru",
+    "booking_id": "WW6MFFN"
+  },
+  {
+    "title": "Pushpa 2: The Rule",
+    "format": "IMAX 2D",
+    "date": "2024-12-07",
+    "time": "06:30pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 02 IMAX",
+    "city": "Bengaluru",
+    "booking_id": "TSAQBSR"
+  },
+  {
+    "title": "The Wild Robot",
+    "format": "4DX 3D",
+    "date": "2024-11-09",
+    "time": "03:00pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 07 4DX",
+    "city": "Bengaluru",
+    "booking_id": "T8AEHGW"
+  },
+  {
+    "title": "Gladiator II",
+    "format": "2D",
+    "date": "2024-10-26",
+    "time": "03:30pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 08",
+    "city": "Bengaluru",
+    "booking_id": "TEARAHU"
+  },
+  {
+    "title": "Smile 2",
+    "format": "2D",
+    "date": "2024-10-25",
+    "time": "04:30pm",
+    "venue": "PVR: Nexus (Formerly Forum), Koramangala",
+    "screen": "AUDI 4",
+    "city": "Bengaluru",
+    "booking_id": "TCAJH2N"
+  },
+  {
+    "title": "Jigra",
+    "format": "2D",
+    "date": "2024-10-19",
+    "time": "08:50am",
+    "venue": "PVR: Nexus (Formerly Forum), Koramangala",
+    "screen": "AUDI 4",
+    "city": "Bengaluru",
+    "booking_id": "TLAFGJN"
+  },
+  {
+    "title": "Alien: Romulus",
+    "format": "4DX",
+    "date": "2024-09-21",
+    "time": "10:30am",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 07 4DX",
+    "city": "Bengaluru",
+    "booking_id": "TSA3HQD"
+  },
+  {
+    "title": "The Buckingham Murders",
+    "format": "2D",
+    "date": "2024-09-14",
+    "time": "09:35am",
+    "venue": "Cinepolis: Lulu Mall, Bengaluru",
+    "screen": "SCREEN 07",
+    "city": "Bengaluru",
+    "booking_id": "WSNW7ZJ"
+  },
+  {
+    "title": "Deadpool & Wolverine",
+    "format": "4DX 3D",
+    "date": "2024-07-28",
+    "time": "11:30am",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 07 4DX",
+    "city": "Bengaluru",
+    "booking_id": "TFAGCS5"
+  },
+  {
+    "title": "Bad Boys: Ride or Die",
+    "format": "ICE",
+    "date": "2024-06-22",
+    "time": "04:00pm",
+    "venue": "PVR: Superplex Forum Mall, Kanakapura Road",
+    "screen": "AUDI 12 ICE",
+    "city": "Bengaluru",
+    "booking_id": "TLAHAW4"
+  },
+  {
+    "title": "Challengers",
+    "format": "2D",
+    "date": "2024-05-26",
+    "time": "04:55pm",
+    "venue": "PVR: Nexus (Formerly Forum), Koramangala",
+    "screen": "AUDI 8",
+    "city": "Bengaluru",
+    "booking_id": "T8AAE9X"
+  },
+  {
+    "title": "Dune: Part Two",
+    "format": "IMAX",
+    "date": "2024-04-06",
+    "time": "01:10pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 02 IMAX",
+    "city": "Bengaluru",
+    "booking_id": "TPAYE2B"
+  },
+  {
+    "title": "Dune: Part Two",
+    "format": "IMAX",
+    "date": "2024-03-05",
+    "time": "03:00pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 02 IMAX",
+    "city": "Bengaluru",
+    "booking_id": "WNZNKX7"
+  },
+  {
+    "title": "The Nun II",
+    "format": "4DX",
+    "date": "2023-10-02",
+    "time": "01:15pm",
+    "venue": "PVR: 4DX, Orion Mall, Dr Rajkumar Road",
+    "screen": "AUDI 03 4DX",
+    "city": "Bengaluru",
+    "booking_id": "WQDQ2ZN"
+  },
+  {
+    "title": "Oppenheimer",
+    "format": "IMAX",
+    "date": "2023-08-18",
+    "time": "03:20pm",
+    "venue": "PVR: Vega City, Bannerghatta Road",
+    "screen": "AUDI 02 IMAX",
+    "city": "Bengaluru",
+    "booking_id": "WNKTSMW"
+  }
+]
